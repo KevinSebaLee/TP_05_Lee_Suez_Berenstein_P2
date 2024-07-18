@@ -1,0 +1,53 @@
+<body>
+    <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
+
+    <script>
+        let tiempo = 600; 
+        let timer = setInterval(function() {
+            let minutes = Math.floor(tiempo / 60);
+            let seconds = tiempo % 60;
+            document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            if (tiempo <= 0) {
+                clearInterval(timer);
+                alert("¡Se acabó el tiempo!");
+            }
+            tiempo--;
+        }, 600);
+    </script>
+
+    <div class="Consigna">
+        <b>En una sala de juegos, cinco niños disfrutan de diferentes tipos de juguetes. Cada niño tiene sus propias preferencias: uno juega con bloques de construcción, otro tiene un gato como mascota, mientras que otro prefiere los trenes. El niño noruego juega con una muñeca y el alemán se encuentra en la esquina izquierda de la sala. El niño en la esquina derecha de la sala bebe jugo. Las relaciones entre vecinos son importantes: el niño con el perro vive al lado del que juega con la pelota, y el que tiene un pez está junto al que juega con la peonza. El que bebe leche vive al lado del que juega con bloques de construcción, y el que vive en el centro de la sala prefiere el refresco. En la esquina derecha de la sala, el niño tiene una mascota diferente al de la esquina izquierda. Además, el que juega con la bicicleta vive al lado del que tiene un gato, y el que juega con coches vive al lado del que bebe agua. ¿Quién es el niño que tiene un pez como mascota?</b>
+        <b>Este acertijo se resuelve usando las pistas para determinar quién es el niño que tiene un pez como mascota en la sala de juegos.</b>
+    </div>
+
+    @if(ViewBag.Error != null){
+            <h3 class="error">@ViewBag.Error</h3>
+    }
+
+    <div class="juego">
+        <div class="niño">
+            <h3>niño 1</h3>
+            <a href='@Url.Action("Habitacion", "Home", new{clave="1"})'><img src="~/img/niño1.png"></a>
+        </div>
+
+        <div class="niño1">
+            <h3>niño 2</h3>
+            <a href='@Url.Action("Habitacion", "Home", new{clave="2"})'><img src="~/img/niño2.png"></a>
+        </div>
+
+        <div class="niñoMedio">
+            <h3>niño 5</h3>
+            <a href='@Url.Action("Habitacion", "Home", new{clave="5"})'><img src="~/img/niño5.png"></a>
+        </div>
+
+        <div class="niñoAbajo">
+            <h3>niño 3</h3>
+            <a href='@Url.Action("Habitacion", "Home", new{clave="3"})'><img src="~/img/niño3.png"></a>
+        </div>
+
+        <div class="niñoAbajo1">
+            <h3>niño 4</h3>
+            <a href='@Url.Action("Habitacion", "Home", new{clave="4"})'><img src="~/img/niño4.png"></a>
+        </div>
+    </div>
+</body>

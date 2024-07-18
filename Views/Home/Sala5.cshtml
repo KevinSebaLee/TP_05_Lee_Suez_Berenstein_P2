@@ -1,0 +1,66 @@
+<body>
+    <div class="Nivel1">
+        <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
+
+        @if(ViewBag.Error != null){
+            <p class="Error">@ViewBag.Error</p>
+        }
+
+        <img src="~/img/hall2.webp">
+
+        @if(Escape.Graph.seIngresa(1) == true && Escape.Graph.seIngresa(2) == true && Escape.Graph.seIngresa(3) == true && Escape.Graph.seIngresa(4) == true){
+            @if(ViewBag.activoSala == null){
+                <div class="Hoja">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Insercion de contraseñas</a>
+                </div>
+            }else{
+                <div class="HojaActivada1">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
+                    <b>Acertijo de los Cuatro Números
+                        Imagina que tienes cuatro números: A, B, C y D. Basándote en las siguientes pistas encuentre el numero:
+
+                        <br><br>
+
+                        El número A es el menor de los cuatro.
+                        <br>
+                        El número B está en la segunda posición.
+                        <br>
+                        El número C es el mayor de los cuatro.
+                        <br>
+                        El número D está inmediatamente antes de C.
+                        <br>
+                        El número A está en la primera posición. 
+                        
+                        <br><br>
+
+                        Se puede fijar los numeros en la pestaña progreso que se encuentra en el mapa.
+                    </b>
+
+                    <form action='@Url.Action("Habitacion")'>
+                        <input type="number" name="clave" min="0" max="9999" autocomplete="off" required>
+                        <input type="submit" value="Enviar Respuesta">
+                    </form>
+                </div>
+            }
+        }
+        else{
+            <p class="Error1">No completo las anteriores salas. No puede ingresar nada.</p>
+            <a class="Volver" href='@Url.Action("Mapa")'>Volver al mapa</a>
+        }
+
+        <script>
+            let tiempo = 600; 
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                }
+                tiempo--;
+            }, 600);
+        </script>
+
+    </div>
+</body>

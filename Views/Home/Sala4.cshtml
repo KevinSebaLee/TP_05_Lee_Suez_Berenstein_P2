@@ -1,0 +1,32 @@
+<body>
+    <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
+    
+    <div class="pregunta">
+        <img src="~/img/niño5.png">
+        <p>Estas en una sala completamente oscura, de repente escuchas la voz de un niño que te muesta 3 objetos que apenas puedes diferenciar, una antorcha a leña, una antorcha electrica
+        y una vela, luego, te da una cerilla. Que encenderias primero?</p>
+    </div>
+
+    <form action='@Url.Action("Habitacion")'>
+        <input type="text" name="clave" autocomplete="off" required>
+        <input type="submit" value="Enviar Respuesta">
+    </form>
+
+    @if(ViewBag.Error != null){
+        <h3 class="error">@ViewBag.Error</h3>
+    }
+
+    <script>
+            let tiempo = 600; 
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                }
+                tiempo--;
+            }, 900);
+        </script>
+</body>

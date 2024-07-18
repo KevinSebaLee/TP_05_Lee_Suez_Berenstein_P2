@@ -1,0 +1,48 @@
+<body>
+    <div class="Nivel1">
+            <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
+
+            @if(ViewBag.Error != null){
+                <p class="Error">@ViewBag.Error</p>
+            }
+
+            <img src="/img/OfficeClean.jpg">
+
+        @if(!(Escape.salasEscapadas[1])){
+            @if(ViewBag.activoSala == null){
+                <div class="Hoja">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Hoja de contraseñas</a>
+                </div>
+            }else{
+                <div class="HojaActivada">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
+                    <b>8806=6 7111=0 2172=0 6666=4 1111=0 7662=2 9312=1 0000=4 2222=0 3333=0 5555=0 8193=3 8096=5 7777=0 9999=4 7756=1 6855=3 9881=5 5531=0 2581= ¿?</b>
+
+                    <form action='@Url.Action("Habitacion")'>
+                        <p>Cuál es la respuesta?</p>
+                        <input type="text" name="clave" min="0" max="1000" autocomplete="off" required>
+                        <input type="submit" value="Enviar Respuesta">
+                    </form>
+                </div>
+            }
+        }
+        else{
+            <b class="completada">Ya completo la sala!</b>
+            <a class="Volver1" href='@Url.Action("Mapa")'>Volver al mapa</a>
+        }
+
+            <script>
+                let tiempo = 600; 
+                let timer = setInterval(function() {
+                    let minutes = Math.floor(tiempo / 60);
+                    let seconds = tiempo % 60;
+                    document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                    if (tiempo <= 0) {
+                        clearInterval(timer);
+                        alert("¡Se acabó el tiempo!");
+                    }
+                    tiempo--;
+                }, 600);
+            </script>
+    </div>
+</body>

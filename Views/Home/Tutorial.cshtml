@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Creditos</title>
+        <link rel="stylesheet" href="site.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body class="tutorial">
+        <header>
+            <!--Comienzo de navbar-->
+            <nav class="navbar navbar-expand-lg bg-dark border ">
+                <img src="~/img/Logo FNAF.png" class="navbar-logo">
+                <div class="container-fluid">    
+                    <a class="navbar-brand text-white rounded-pill p-1" href='@Url.Action("Index")'>Freddy Fazbear's</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white rounded-pill" aria-current="page" href='@Url.Action("Comenzar")'>Comienzo del juego</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white rounded-pill" href='@Url.Action("Tutorial")'>Tutorial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white rounded-pill" href='@Url.Action("Creditos")'>Creditos</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <!--Fin del navbar-->
+        </header>
+        <main>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="fs-2 text-center">Tutorial</h1>
+                        <p class="fs-4 text-center">¡Bienvenido a nuestra emocionante sala de escape con temática de Five Nights at Freddy’s! Al iniciar, verás un mapa interactivo que te permitirá navegar por distintas áreas, comenzando en la oficina. Cada sala contendrá un enigma que deberás resolver para avanzar a la siguiente. Examina cuidadosamente cada rincón en busca de pistas y elementos clave. A medida que explores, te encontrarás con personajes y elementos icónicos que profundizarán tu experiencia. Recuerda que el tiempo está en tu contra; el reloj está corriendo desde el momento en que comienzas. Tu objetivo es llegar a la última sala y escapar victorioso. ¡Buena suerte, aventurero, y empieza ya, que el tiempo corre!</p>
+                        <button type="button" class="btn btn-outline-secondary btn-lg">Jugar</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg">Creditos</button>
+                    </div>
+                    <div class="col m-3">
+                        <img src="img/MapaEscapeRoom.jpg" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-dark text-white py-5 ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3 mb-4 bg-secondary p-4 rounded mx-5">
+                        <h4 class="text-white">Si desea contactarnos</h4>
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label text-white">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-3 mb-4 mx-5">
+                        <h4>Sobre Nosotros</h4>
+                        <p>Bienvenidos a 'Fazbear's Escape', donde la nostalgia se mezcla con el terror en nuestra recreación meticulosa de Freddy Fazbear's Pizza. Somos un equipo apasionado por ofrecer experiencias inmersivas y emocionantes que te transportan al misterioso mundo de los animatrónicos. Desde los icónicos personajes hasta los rincones oscuros que esconden secretos, cada detalle está diseñado para desafiar tu ingenio y mantener tus sentidos alerta. Prepárate para explorar, resolver acertijos y, sobre todo, sobrevivir a la noche mientras descubres los oscuros secretos que acechan en nuestras instalaciones.</p>
+                    </div>
+                    <div class="col-3 mb-4 mx-5 ">
+                        <h4 class="text-start">Enlaces Rápidos</h4>
+                        <ul class="list-unstyled">
+                            <li><a href='@Url.Action("Index")' class="text-white border border-0">Menu</a></li>
+                            <li><a href='@Url.Action("Comenzar")' class="text-white border border-0">Jugar</a></li>
+                            <li><a href='@Url.Action("Tutorial")' class="text-white border border-0">Tutorial</a></li>
+                            <li><a href='@Url.Action("Creditos")' class="text-white border border-0">Creditos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="footerLinea bg-light">
+                <div class="footer-bottom text-center">
+                    <p>&copy; 2024 Freddy Fazbear's. Todos los derechos reservados a Agustin Berenstein, Elias Suez y Kevin Lee.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

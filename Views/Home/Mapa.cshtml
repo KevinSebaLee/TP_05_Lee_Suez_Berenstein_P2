@@ -1,0 +1,120 @@
+<body class="Fondo">
+
+    <a href='@Url.Action("Progreso")' class="Progreso"><h2>Ver el Progreso</h2></a>
+
+    <h1 class="error">@ViewBag.Error</h1>
+
+    <section>
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="1"})' class="Oficina">
+            @{Escape.estadoJuego = 1;}
+            <div>
+                <b>Office</b>
+            </div>
+        </a>
+        
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="13"})' class="Desk">
+            @{Escape.estadoJuego = 13;}
+            <div>
+                <b>Front Desk</b>
+                <b>Puppet box</b>
+            </div>
+        </a>
+        
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="14"})' class="Parts">
+            @{Escape.estadoJuego = 14;}
+            <div>
+                <b>Parts & Service</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="15"})' class="State">
+            @{Escape.estadoJuego = 16;}
+            <div>
+                <b>Main State</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="2"})' class="KidsCove">
+            @{Escape.estadoJuego = 2;}
+            <div>
+                <b>Kids Cove</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="5"})' class="Hall2">
+            @{Escape.estadoJuego = 4;}
+            <div>
+                <b>Hall 2</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="3"})' class="PartyRoom">
+            @{Escape.estadoJuego = 3;}
+            <div>
+                <b>Party Room 1</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="4"})' class="PartyRoom">
+            @{Escape.estadoJuego = 5;}
+            <div>
+                <b>Party Room 2</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="6"})' class="Hall1">
+            @{Escape.estadoJuego = 6;}
+            <div>
+                <b>Hall 1</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="7"})' class="Arcade">
+            @{Escape.estadoJuego = 7;}
+            <div>
+                <b>Arcade</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="8"})' class="Bath1">
+            @{Escape.estadoJuego = 8;}
+            <div>
+                <b>Bathroom 1</b>
+            </div>
+        </a>
+
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="9"})' class="Bath2">
+            @{Escape.estadoJuego = 9;}
+            <div>
+                <b>Bathroom 2</b>
+            </div>
+        </a>
+        <hr>
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="10"})' class="Dining">
+            @{Escape.estadoJuego = 15;}
+            <div>
+                <b>Showroom / Dining</b>
+            </div>
+        </a>
+        
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="16"})' class="Exit">
+            @{Escape.estadoJuego = 10;}
+            <div>
+                <b>Exit</b>
+            </div>
+        </a> 
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="11"})' class="KidCare">
+            @{Escape.estadoJuego = 11;}
+            <div>
+                <b>Kid Care Zone</b>
+            </div>
+        </a>   
+        <a href='@Url.Action("IrASala", "Home", new{numeroSala="12"})' class="Kitchen">
+            @{Escape.estadoJuego = 12;}
+            <div>
+                <b>Kitchen</b>
+            </div>
+        </a>   
+        
+    </section>
+</body>

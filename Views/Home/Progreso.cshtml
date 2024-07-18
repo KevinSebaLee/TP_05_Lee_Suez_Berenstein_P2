@@ -1,0 +1,32 @@
+<body class="progreso">
+    @for(int i=0; i < Escape.salasEscapadas.Length; i++){
+        if(i > 0){
+            @if(i == 1){
+                <h2>Seccion 1</h2>
+            }
+            else if(i == 6){
+                <h2>Seccion 2</h2>
+            }
+            else if(i == 10){
+                <h2>Seccion 3</h2>
+            }
+            <p>Sala @(i): 
+            @if(Escape.salasEscapadas[i] == false)
+            {
+                <p class="NoEscapo">No escapo aún</p>
+            }else{
+                <p class="Escapo">Escapó!</p> 
+                @if(i == 1){
+                    <p>Numero A para el Hall 2: <b>@Escape.DigitosHall2[0]</b></p>
+                }else if(i == 2){
+                    <p>Numero B para el Hall 2: <b>@Escape.DigitosHall2[1]</b></p>
+                }else if(i == 3){
+                    <p>Numero C para el Hall 2: <b>@Escape.DigitosHall2[3]</b></p>
+                }else if(i == 4){
+                    <p>Numero D para el Hall 2: <b>@Escape.DigitosHall2[2]</b></p>
+                }
+
+            }<br></p>
+        }
+    }
+</body>
