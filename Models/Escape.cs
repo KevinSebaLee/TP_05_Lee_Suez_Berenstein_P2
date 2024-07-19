@@ -16,7 +16,7 @@ static class Escape
 
         DigitosHall2 = hall2Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
 
-        incognitasSalas = new string[9] { "2", "rombo", "5", "cerilla", hall2Codigo.ToString(), "Intercambiar Caballos", "55+5", "Criada", "Ciego" };
+        incognitasSalas = new string[9] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), "aaa", "caja de cerillas", "Criada", "Ciego" };
 
         salasEscapadas = new bool[16];
         Array.Fill(salasEscapadas, false);
