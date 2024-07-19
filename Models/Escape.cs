@@ -19,11 +19,11 @@ static class Escape
         DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         DigitosHall2 = hall2Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
 
-        incognitasSalas = new string[9] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "Criada", "Ciego" };
+        incognitasSalas = new string[17] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "Ciego", "", "", "", "", "", "", "", ""};
 
         salasEscapadas = new bool[16];
         Array.Fill(salasEscapadas, false);
-
+        
         vidas = 5;
 
         Graph = new RoomGraph(17);
@@ -41,25 +41,9 @@ static class Escape
         return siEscapo;
     }
 
-    public static bool TerminoSala()
-    {
-        if (GetEstadoJuego() == incognitasSalas.Count())
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
     public static bool ResolverSala(string Incognita)
     {
         int SalaEstado;
-
-        Console.WriteLine(GetEstadoJuego());
-        Console.WriteLine(Incognita);
-        Console.WriteLine(incognitasSalas[GetEstadoJuego() - 1]);
 
         if (incognitasSalas != null)
         {
@@ -78,6 +62,15 @@ static class Escape
             InicializarJuego();
 
             return false;
+        }
+    }
+
+    public static bool perdioJuego(){
+        if(vidas == 0){
+            return false;
+        }
+        else{
+            return true;
         }
     }
 }

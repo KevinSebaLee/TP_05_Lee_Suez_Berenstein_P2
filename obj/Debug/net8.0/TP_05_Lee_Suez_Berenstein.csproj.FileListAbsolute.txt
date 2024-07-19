@@ -55,3 +55,32 @@ C:\Users\Tung Shu Lee\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\refint\
 C:\Users\Tung Shu Lee\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.pdb
 C:\Users\Tung Shu Lee\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.genruntimeconfig.cache
 C:\Users\Tung Shu Lee\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\ref\TP_05_Lee_Suez_Berenstein.dll
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\appsettings.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\TP_05_Lee_Suez_Berenstein.staticwebassets.runtime.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\TP_05_Lee_Suez_Berenstein.exe
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\TP_05_Lee_Suez_Berenstein.deps.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\TP_05_Lee_Suez_Berenstein.runtimeconfig.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\TP_05_Lee_Suez_Berenstein.dll
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\bin\Debug\net8.0\TP_05_Lee_Suez_Berenstein.pdb
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.AssemblyInfoInputs.cache
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.AssemblyInfo.cs
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.csproj.CoreCompileInputs.cache
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.RazorAssemblyInfo.cache
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.RazorAssemblyInfo.cs
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.sourcelink.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets\msbuild.TP_05_Lee_Suez_Berenstein.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets\msbuild.build.TP_05_Lee_Suez_Berenstein.props
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP_05_Lee_Suez_Berenstein.props
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP_05_Lee_Suez_Berenstein.props
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\scopedcss\bundle\TP_05_Lee_Suez_Berenstein.styles.css
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.dll
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\refint\TP_05_Lee_Suez_Berenstein.dll
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.pdb
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\TP_05_Lee_Suez_Berenstein.genruntimeconfig.cache
+C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\obj\Debug\net8.0\ref\TP_05_Lee_Suez_Berenstein.dll

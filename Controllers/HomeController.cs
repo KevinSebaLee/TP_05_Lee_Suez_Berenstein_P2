@@ -53,19 +53,28 @@ public class HomeController : Controller
     }
 
     public IActionResult Habitacion(string clave){
+        Console.WriteLine(Escape.vidas);
         int sala = Escape.GetEstadoJuego();
 
         if(Escape.ResolverSala(clave.ToLower())){
-            if(Escape.TerminoSala()){
+            Console.WriteLine(Escape.GetEstadoJuego());
+
+            if(Escape.GetEstadoJuego() == 17){
                 return View("Victoria");
             }
 
             return View("Mapa");
         }
         else{
+            Escape.vidas--;
             ViewBag.Error = "La respuesta escrita es incorrecta";
 
-            return View($"Sala{sala}");
+            if(Escape.perdioJuego()){
+                return View($"Sala{sala}");
+            }
+            else{
+                return View("Perdio");
+            }
         }
     }
 

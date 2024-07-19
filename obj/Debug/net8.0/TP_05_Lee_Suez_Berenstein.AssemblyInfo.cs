@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_05_Lee_Suez_Berenstein")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74101f3d133f567a189495d3c3cbb6ffffe07136")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07b27fb7b614dc133fc7fb21d18aa188cc59e67b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_05_Lee_Suez_Berenstein")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_05_Lee_Suez_Berenstein")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
