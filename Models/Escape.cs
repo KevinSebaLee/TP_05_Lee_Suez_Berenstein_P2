@@ -13,16 +13,19 @@ static class Escape
     {
         Random rnd = new Random();
 
+        DigitosHall1 = new int[3];
+        DigitosHall2 = new int[4];
+        Array.Fill(DigitosHall1, 0);
+        Array.Fill(DigitosHall2, 0);
+
         do{
-            hall2Codigo = rnd.Next(9999);
+            hall2Codigo = rnd.Next(1000, 9999);
             DigitosHall2 = hall2Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         }while(!(DigitosHall2[0] < DigitosHall2[1] && DigitosHall2[0] < DigitosHall2[2] && DigitosHall2[0] < DigitosHall2[3] && DigitosHall2[2] > DigitosHall2[1] && DigitosHall2[2] > DigitosHall2[3]));
 
         do{
-            hall1Codigo = rnd.Next(999);
+            hall1Codigo = rnd.Next(100, 999);
             DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
-
-            Console.WriteLine(hall1Codigo);
         }while(!(DigitosHall1[0] < DigitosHall1[1] && DigitosHall1[0] < DigitosHall1[2] && DigitosHall1[2] > DigitosHall1[1]));
 
         incognitasSalas = new string[17] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "Ciego", "", "", "", "", "", "", "", ""};
