@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\img\\niño5.png"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
+      "PackagePath": "staticwebassets\\img\\screamer.gif"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

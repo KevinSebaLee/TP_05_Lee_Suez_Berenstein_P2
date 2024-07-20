@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q9wevtA6/Uu29zhAFuWl4QvR5IPlaT/2mX7sHdmjmJQ=",
+  "Hash": "l/4xfj2T+QFJ8aDyGmiH+rZZCtkRfR1EbL2JhFjXf6I=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -319,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\OfficeClean.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "img/screamer.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\screamer.gif"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",
