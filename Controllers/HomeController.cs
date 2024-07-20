@@ -53,12 +53,9 @@ public class HomeController : Controller
     }
 
     public IActionResult Habitacion(string clave){
-        Console.WriteLine(Escape.vidas);
         int sala = Escape.GetEstadoJuego();
 
         if(Escape.ResolverSala(clave.ToLower())){
-            Console.WriteLine(Escape.GetEstadoJuego());
-
             if(Escape.GetEstadoJuego() == 17){
                 return View("Victoria");
             }

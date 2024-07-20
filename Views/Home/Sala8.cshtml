@@ -1,17 +1,23 @@
 <body>
-    @if(ViewBag.Error != null){
-        <p>@ViewBag.Error</p>
+    @if(!Escape.salasEscapadas[8]){
+        @if(ViewBag.Error != null){
+            <p>@ViewBag.Error</p>
+        }
+        <p>Entras al baño 1 y te encuentras con 4 cajas que cada una tiene una nota y en una de ellas tiene una parte del codigo para la siguiente sala. Si te equivocas a la hora de elegir, perdes 1 vida. Estas dicen lo siguiente:</p>
+        <ul>
+            <li>Caja 1: La clave no esta aqui</li>
+            <li>Caja 2: La nota de la caja 1 dice la verdad</li>
+            <li>Caja 3: La nota no esta en la Caja 2</li>
+            <li>Caja 4: La caja 3 esta vacia.</li>
+        </ul>
+        <form action='@Url.Action("Habitacion")'>
+            <p>¿Cual es la caja correcta? (Ingrese el numero nada mas.)</p>
+            <input type="number" name="clave" min="1" max="4" autocomplete="off" required>
+            <input type="submit" value="Enviar">
+        </form>
     }
-    <p>Entras al baño 1 y te encuentras con 4 cajas que cada una tiene una nota y en una de ellas tiene una parte del codigo para la siguiente sala. Si te equivocas a la hora de elegir, perdes 1 vida. Estas dicen lo siguiente:</p>
-    <ul>
-        <li>Caja 1: La clave no esta aqui</li>
-        <li>Caja 2: La nota de la caja 1 dice la verdad</li>
-        <li>Caja 3: La nota no esta en la Caja 2</li>
-        <li>Caja 4: La caja 3 esta vacia.</li>
-    </ul>
-    <form action='@Url.Action("Habitacion")'>
-        <p>¿Cual es la caja correcta? (Ingrese el numero nada mas.)</p>
-        <input type="number" name="clave" min="1" max="4" autocomplete="off" required>
-        <input type="submit" value="Enviar">
-    </form>
+    else{
+        <b>Ya completo la sala!</b>
+        <a href='@Url.Action("Habitacion")'>Volver al Mapa</a>
+    }
 </body>

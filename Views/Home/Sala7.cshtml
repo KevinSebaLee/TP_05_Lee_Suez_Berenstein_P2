@@ -1,12 +1,18 @@
 <body>
-    @if(ViewBag.Error != null){
-        <p>@ViewBag.Error</p>
+    @if(!Escape.salasEscapadas[7]){
+        @if(ViewBag.Error != null){
+            <p>@ViewBag.Error</p>
+        }
+        <p>Un niño te cuenta que si resuelves este acertijo, te daria una parte del codigo para salir del Hall 1. Esto fue lo que les dijo:</p>
+        <p>Trae algo para que ocupe todo el arcade, pero pequeño para que quepa en tu bolsillo".</p>
+        <form action='@Url.Action("Habitacion")'>
+            <p>¿Que le tendrias que entregar para que te de el codigo?</p>
+            <input type="text" name="clave" autocomplete="off" required>
+            <input type="submit" value="Enviar">
+        </form>
     }
-    <p>Un niño te cuenta que si resuelves este acertijo, te daria una parte del codigo para salir del Hall 1. Esto fue lo que les dijo:</p>
-    <p>Trae algo para que ocupe todo el arcade, pero pequeño para que quepa en tu bolsillo".</p>
-    <form action='@Url.Action("Habitacion")'>
-        <p>¿Que le tendrias que entregar para que te de el codigo?</p>
-        <input type="text" name="clave" autocomplete="off" required>
-        <input type="submit" value="Enviar">
-    </form>
+    else{
+        <b>Ya completo la sala!</b>
+        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+    }
 </body>

@@ -1,19 +1,25 @@
 <body>
     <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
     
-    <div class="pregunta">
-        <img src="~/img/niño5.png">
-        <p>Estas en una sala completamente oscura, de repente escuchas la voz de un niño que te muesta 3 objetos que apenas puedes diferenciar, una antorcha a leña, una antorcha electrica
-        y una vela, luego, te da una cerilla. Que encenderias primero?</p>
-    </div>
+    @if(!Escape.salasEscapadas[4]){
+        <div class="pregunta">
+            <img src="~/img/niño5.png">
+            <p>Estas en una sala completamente oscura, de repente escuchas la voz de un niño que te muesta 3 objetos que apenas puedes diferenciar, una antorcha a leña, una antorcha electrica
+            y una vela, luego, te da una cerilla. Que encenderias primero?</p>
+        </div>
 
-    <form action='@Url.Action("Habitacion")'>
-        <input type="text" name="clave" autocomplete="off" required>
-        <input type="submit" value="Enviar Respuesta">
-    </form>
+        <form action='@Url.Action("Habitacion")'>
+            <input type="text" name="clave" autocomplete="off" required>
+            <input type="submit" value="Enviar Respuesta">
+        </form>
 
-    @if(ViewBag.Error != null){
-        <h3 class="error">@ViewBag.Error</h3>
+        @if(ViewBag.Error != null){
+            <h3 class="error">@ViewBag.Error</h3>
+        }
+    }
+    else{
+        <b>Ya completo la sala!</b>
+        <a href='@Url.Action("Mapa")'>Volver al Mapa.</a>
     }
 
     <script>
