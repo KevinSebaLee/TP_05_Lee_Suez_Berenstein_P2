@@ -9,115 +9,115 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP_05_Lee_Suez_Berenstein
 build_property.RootNamespace = TP_05_Lee_Suez_Berenstein
-build_property.ProjectDir = C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein\
+build_property.ProjectDir = C:\Users\Usuario\Desktop\TP_05_Lee_Suez_Berenstein\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\op\Desktop\TP_05_Lee_Suez_Berenstein
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\TP_05_Lee_Suez_Berenstein
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Creditos.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Index.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Mapa.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Mapa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXBhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Perdio.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Perdio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJkaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Progreso.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Progreso.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9ncmVzby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala1.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala10.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala10.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMTAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala11.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala11.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMTEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala12.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala12.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMTIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala13.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala13.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMTMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala14.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala14.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMTQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala15.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala15.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMTUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala2.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala3.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala4.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala5.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala6.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala7.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala7.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala8.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala8.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhOC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala9.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Sala9.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhOS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Tutorial.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Tutorial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUdXRvcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Victoria.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Home/Victoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Shared/_Layout.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/_ViewImports.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/op/Desktop/TP_05_Lee_Suez_Berenstein/Views/_ViewStart.cshtml]
+[C:/Users/Usuario/Desktop/TP_05_Lee_Suez_Berenstein/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
