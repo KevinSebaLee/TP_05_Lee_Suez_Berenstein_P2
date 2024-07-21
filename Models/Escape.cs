@@ -28,7 +28,7 @@ static class Escape
             DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         }while(!(DigitosHall1[0] < DigitosHall1[1] && DigitosHall1[0] < DigitosHall1[2] && DigitosHall1[2] > DigitosHall1[1]));
 
-        incognitasSalas = new string[17] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "Ciego", "", "", "", "", "", "", "", ""};
+        incognitasSalas = new string[17] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "", "", "", "", "", "", "", ""};
 
         salasEscapadas = new bool[16];
         Array.Fill(salasEscapadas, false);
@@ -37,10 +37,10 @@ static class Escape
 
         Graph = new RoomGraph(17);
 
-        Graph.AddConnection(1, 2); Graph.AddConnection(1, 3); Graph.AddConnection(1, 4);
-        Graph.AddConnection(4, 5); Graph.AddConnection(4, 6);
-        Graph.AddConnection(6, 7); Graph.AddConnection(6, 8); Graph.AddConnection(6, 9); Graph.AddConnection(6, 15);
-        Graph.AddConnection(15, 10); Graph.AddConnection(15, 11); Graph.AddConnection(15, 12); Graph.AddConnection(15, 16); Graph.AddConnection(15, 14); Graph.AddConnection(15, 13);
+        Graph.AddConnection(1, 2); Graph.AddConnection(1, 3); Graph.AddConnection(1, 4); Graph.AddConnection(1, 5);
+        Graph.AddConnection(5, 6);
+        Graph.AddConnection(6, 7); Graph.AddConnection(6, 8); Graph.AddConnection(6, 9); Graph.AddConnection(6, 10);
+        Graph.AddConnection(10, 11); Graph.AddConnection(10, 12); Graph.AddConnection(10, 13); Graph.AddConnection(10, 14); Graph.AddConnection(10, 15); Graph.AddConnection(10, 16);
     }
 
     public static int GetEstadoJuego()

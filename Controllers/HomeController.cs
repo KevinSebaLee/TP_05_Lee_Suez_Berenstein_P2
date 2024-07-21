@@ -92,7 +92,7 @@ public class HomeController : Controller
             }
         }
         else if(numeroSala >= 10){
-            if(Escape.Graph.seIngresa(14)){
+            if(Escape.Graph.seIngresa(6)){
                 Escape.estadoJuego = numeroSala;
                 return View($"Sala{numeroSala}");
             }

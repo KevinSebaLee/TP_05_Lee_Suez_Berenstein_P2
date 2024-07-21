@@ -8,7 +8,7 @@
 
         <img src="~/img/Hall1.jpg">
 
-        @if(Escape.salasEscapadas[6]){
+        @if(!Escape.salasEscapadas[6]){
             @if(Escape.Graph.seIngresa(7) == true && Escape.Graph.seIngresa(8) == true && Escape.Graph.seIngresa(9) == true){
                 @if(ViewBag.activoSala == null){
                     <div class="Hoja">
@@ -43,8 +43,8 @@
             }
         }
         else{
-            <b>Ya completo la sala!</b>
-            <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+            <b class="completada">Ya completo la sala!</b>
+            <a class="Volver1" href='@Url.Action("Mapa")'>Volver al mapa</a>
         }
 
         <script>

@@ -1,6 +1,6 @@
 public class RoomGraph
 {
-    private int numRooms;
+    private int numRooms = 16;
     private List<int>[] connections;
     public bool SeCompleto;
 
@@ -8,7 +8,7 @@ public class RoomGraph
     {
         connections = new List<int>[numRooms];
 
-        for (int i = 0; i < numRooms; ++i)
+        for (int i = 0; i < numRooms; i++)
         {
             connections[i] = new List<int>();
         }
