@@ -8,6 +8,11 @@ header div .navbar navbar-expand-lg bg-body-tertiary{
   color: #fff;
 }
 
+.easter-egg p{
+  margin-left: 25%;
+  margin-bottom: 4%;
+}
+
 .tutorial, .creditos{
   padding: 0;
 }
@@ -460,7 +465,8 @@ a:hover {
 }
 
 .Tempo{
-  text-align: center;
+  margin-top: -50%;
+  margin-left: -15%;
 }
 
 hr{

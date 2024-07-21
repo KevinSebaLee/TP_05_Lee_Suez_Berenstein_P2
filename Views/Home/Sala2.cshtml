@@ -1,53 +1,54 @@
 <body class="sala2">
-
-    <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
-
-    <script>
-        // Load the saved timer state from localStorage or set to 600 if none exists
-        let tiempo = parseInt(localStorage.getItem('tiempo')) || 600;
-            
-        let timer = setInterval(function() {
-            let minutes = Math.floor(tiempo / 60);
-            let seconds = tiempo % 60;
-            document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-    
-            // Save the current timer state to localStorage
-            localStorage.setItem('tiempo', tiempo);
-        
-            if (tiempo <= 0) {
-                clearInterval(timer);
-                alert("¡Se acabó el tiempo!");
-                // Reset timer in localStorage when the game is lost
-                localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-            }
-            tiempo--;
-        }, 1200); // Changed interval to 1000ms (1 second) for accuracy
-    </script>
     @if(!(Escape.salasEscapadas[2])){
-    <div class="Contexto">
-        <img src="/img/Balloon_Boy.jpg">
-        <h3>Balloon Boy tenía un salón con una sola rejilla de ventilación, cuadrada y de 1m de alto por 1m de ancho. Balloon Boy tenía un problema ocular, y la ventaja dejaba entrar mucha luz. Te llamo a ti y te pidió que alterara la ventana para que sólo entrara la mitad de la luz. Pero tenía que seguir siendo cuadrada y con las mismas dimensiones de 1x1 metros. Solo se puede cambiar la forma de la ventilación. ¿Cuál sería la forma de la ventilación para que Balloon Boy pueda cumplir su objetivo?</h3>
-        @if(ViewBag.activoSala == null){
-            <div class="Boton">
-                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Mostrar ventanilla</a>
-            </div>
-        }else{
-            <div class="Boton">
-                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
-                <img src="~/img/Ventilacion.jfif">
-            </div>
-        }
+        <h2 class="Tempo">Temportizador: <span id="tiempo">10:00</span></h2>
 
-        <form class="Form2" action='@Url.Action("Habitacion")'>
-            <p>¿Cuál es la respuesta?</p>
-            <input type="text" name="clave" autocomplete="off" required>
-            <input type="submit" value="Enviar Respuesta">
-        </form>
+        <script>
+            // Load the saved timer state from localStorage or set to 600 if none exists
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 600;
+                
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        
+                // Save the current timer state to localStorage
+                localStorage.setItem('tiempo', tiempo);
+            
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                    // Reset timer in localStorage when the game is lost
+                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
+                }
+                tiempo--;
+            }, 1200); // Changed interval to 1000ms (1 second) for accuracy
+        </script>
 
-        @if(ViewBag.Error != null){
-            <h3 class="error">@ViewBag.Error</h3>
-        }
-    </div>
+        
+        <div class="Contexto">
+            <img src="/img/Balloon_Boy.jpg">
+            <h3>Balloon Boy tenía un salón con una sola rejilla de ventilación, cuadrada y de 1m de alto por 1m de ancho. Balloon Boy tenía un problema ocular, y la ventaja dejaba entrar mucha luz. Te llamo a ti y te pidió que alterara la ventana para que sólo entrara la mitad de la luz. Pero tenía que seguir siendo cuadrada y con las mismas dimensiones de 1x1 metros. Solo se puede cambiar la forma de la ventilación. ¿Cuál sería la forma de la ventilación para que Balloon Boy pueda cumplir su objetivo?</h3>
+            @if(ViewBag.activoSala == null){
+                <div class="Boton">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Mostrar ventanilla</a>
+                </div>
+            }else{
+                <div class="Boton">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
+                    <img src="~/img/Ventilacion.jfif">
+                </div>
+            }
+
+            <form class="Form2" action='@Url.Action("Habitacion")'>
+                <p>¿Cuál es la respuesta?</p>
+                <input type="text" name="clave" autocomplete="off" required>
+                <input type="submit" value="Enviar Respuesta">
+            </form>
+
+            @if(ViewBag.Error != null){
+                <h3 class="error">@ViewBag.Error</h3>
+            }
+        </div>
     }
     else{
         <b>Ya completo la sala!</b>
