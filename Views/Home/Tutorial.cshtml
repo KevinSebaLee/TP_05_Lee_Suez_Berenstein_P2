@@ -40,11 +40,15 @@
                     <div class="col">
                         <h1 class="fs-2 text-center">Tutorial</h1>
                         <p class="fs-4 text-center">¡Bienvenido a nuestra emocionante sala de escape con temática de Five Nights at Freddy’s! Al iniciar, verás un mapa interactivo que te permitirá navegar por distintas áreas, comenzando en la oficina. Cada sala contendrá un enigma que deberás resolver para avanzar a la siguiente. Examina cuidadosamente cada rincón en busca de pistas y elementos clave. A medida que explores, te encontrarás con personajes y elementos icónicos que profundizarán tu experiencia. Recuerda que el tiempo está en tu contra; el reloj está corriendo desde el momento en que comienzas. Tu objetivo es llegar a la última sala y escapar victorioso. ¡Buena suerte, aventurero, y empieza ya, que el tiempo corre!</p>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Jugar</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Creditos</button>
+                        <form action='@Url.Action("Comenzar")'>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg">Jugar</button>
+                        </form>
+                        <form action='@Url.Action("Creditos")'>
+                            <button type="submit" class="btn btn-outline-secondary btn-lg">Creditos</button>
+                        </form>
                     </div>
                     <div class="col m-3">
-                        <img src="img/MapaEscapeRoom.jpg" class="w-100">
+                        <img src="~/img/MapaFNAFSinEdicion.jpeg" class="w-100">
                     </div>
                 </div>
             </div>
