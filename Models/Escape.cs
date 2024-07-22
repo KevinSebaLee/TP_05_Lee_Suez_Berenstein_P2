@@ -28,7 +28,7 @@ static class Escape
             DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         }while(!(DigitosHall1[0] < DigitosHall1[1] && DigitosHall1[0] < DigitosHall1[2] && DigitosHall1[2] > DigitosHall1[1]));
 
-        incognitasSalas = new string[17] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "", "", "", "", "", "", "", ""};
+        incognitasSalas = new string[17] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "", "", "", "59", "", "", ""};
 
         salasEscapadas = new bool[16];
         Array.Fill(salasEscapadas, false);

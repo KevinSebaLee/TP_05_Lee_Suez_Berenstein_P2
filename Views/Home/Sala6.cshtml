@@ -1,6 +1,5 @@
 <body>
     <div class="Nivel1">
-        <h2>Temportizador: <span id="tiempo"></span></h2>
 
         @if(ViewBag.Error != null){
             <p class="Error">@ViewBag.Error</p>
@@ -9,6 +8,8 @@
         <img src="~/img/Hall1.jpg">
 
         @if(!Escape.salasEscapadas[6]){
+            <h2>Temportizador: <span id="tiempo"></span></h2>
+
             @if(Escape.Graph.seIngresa(7) == true && Escape.Graph.seIngresa(8) == true && Escape.Graph.seIngresa(9) == true){
                 @if(ViewBag.activoSala == null){
                     <div class="Hoja">
@@ -41,33 +42,32 @@
                 <p class="Error1">No completo las anteriores salas. No puede ingresar nada.</p>
                 <a class="Volver" href='@Url.Action("Mapa")'>Volver al mapa</a>
             }
+            <script>
+                // Load the saved timer state from localStorage or set to 600 if none exists
+                let tiempo = parseInt(localStorage.getItem('tiempo')) || 3600;
+                    
+                let timer = setInterval(function() {
+                    let minutes = Math.floor(tiempo / 60);
+                    let seconds = tiempo % 60;
+                    document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            
+                    // Save the current timer state to localStorage
+                    localStorage.setItem('tiempo', tiempo);
+                
+                    if (tiempo <= 0) {
+                        clearInterval(timer);
+                        alert("¡Se acabó el tiempo!");
+                        // Reset timer in localStorage when the game is lost
+                        localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
+                    }
+                    tiempo--;
+                }, 1000); // Changed interval to 1000ms (1 second) for accuracy
+            </script>
         }
         else{
             <b class="completada">Ya completo la sala!</b>
             <a class="Volver1" href='@Url.Action("Mapa")'>Volver al mapa</a>
         }
-
-        <script>
-        // Load the saved timer state from localStorage or set to 600 if none exists
-        let tiempo = parseInt(localStorage.getItem('tiempo')) || 3600;
-            
-        let timer = setInterval(function() {
-            let minutes = Math.floor(tiempo / 60);
-            let seconds = tiempo % 60;
-            document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-    
-            // Save the current timer state to localStorage
-            localStorage.setItem('tiempo', tiempo);
-        
-            if (tiempo <= 0) {
-                clearInterval(timer);
-                alert("¡Se acabó el tiempo!");
-                // Reset timer in localStorage when the game is lost
-                localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-            }
-            tiempo--;
-        }, 1000); // Changed interval to 1000ms (1 second) for accuracy
-    </script>
 
     </div>
 </body>

@@ -1,0 +1,42 @@
+<body>
+    @if(!Escape.salasEscapadas[14]){
+        @if(ViewBag.Error != null){
+            <p>@ViewBag.Error</p>
+        }
+
+        <h2>Temportizador: <span id="tiempo"></span></h2>
+
+        <script>
+            // Load the saved timer state from localStorage or set to 600 if none exists
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 600;
+                
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        
+                // Save the current timer state to localStorage
+                localStorage.setItem('tiempo', tiempo);
+            
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                    // Reset timer in localStorage when the game is lost
+                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
+                }
+                tiempo--;
+            }, 1200); // Changed interval to 1000ms (1 second) for accuracy
+        </script>
+
+        <p>En un depósito, hay un nivel de agua muy bajo pero que se duplica todos los días. Tarda 60 días en llenarse. ¿Cuánto tarda en llegar a la mitad?</p>
+        <form action='@Url.Action("Habitacion")'>
+            <p>Cuantos dias tarda en llenarse?</p>
+            <input type="number" name="clave" min="1" max="60" autocomplete="off" required>
+            <input type="submit" value="Enviar">
+        </form>
+    }
+    else{
+        <b>Ya completo la sala!</b>
+        <a href='@Url.Action("Habitacion")'>Volver al Mapa</a>
+    }
+</body>
