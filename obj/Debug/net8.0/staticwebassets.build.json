@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "whf0/JjtZhIrfjIA4ELare/EAjI/wrlgpcE8GcZ19Sk=",
+  "Hash": "9s7zsW3IM5hVpUniPXEbO3V6cOcg9OeozooLst3t8rs=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TP_05_Lee_Suez_Berenstein\\wwwroot",
       "Source": "TP_05_Lee_Suez_Berenstein",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\css\\site.css",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\favicon.ico",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Balloon_Boy.jpg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Balloon_Boy.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Balloon_Boy.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Balloon_Boy.jpg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 1.jpeg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 1.jpeg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Carousel 1.jpeg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Carousel 1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\carousel 2.jpg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\carousel 2.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/carousel 2.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel 2.jpg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 3.jpeg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 3.jpeg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Carousel 3.jpeg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Carousel 3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Hall1.jpg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Hall1.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Hall1.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Hall1.jpg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\hall2.webp",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\hall2.webp",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/hall2.webp",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hall2.webp"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Logo FNAF.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Logo FNAF.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Logo FNAF.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo FNAF.png"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaEscapeRoom.jpg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaEscapeRoom.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/MapaEscapeRoom.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MapaEscapeRoom.jpg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaFNAFSinEdicion.jpeg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaFNAFSinEdicion.jpeg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/MapaFNAFSinEdicion.jpeg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MapaFNAFSinEdicion.jpeg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño1.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño1.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño1.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño1.png"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño2.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño2.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño2.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño2.png"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño3.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño3.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño3.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño3.png"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño4.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño4.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño4.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño4.png"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño5.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño5.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño5.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño5.png"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\OfficeClean.jpg",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\OfficeClean.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/OfficeClean.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OfficeClean.jpg"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/screamer.gif",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\screamer.gif"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Ventilacion.jfif",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ventilacion.jfif"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\js\\site.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\sounds\\Fnaf Jumpscare Sound Effect.mp3",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\sounds\\Fnaf Jumpscare Sound Effect.mp3",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\op\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "sounds/Fnaf Jumpscare Sound Effect.mp3",
       "AssetKind": "All",

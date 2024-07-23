@@ -600,3 +600,11 @@ hr{
   width: 100%;
   height: auto;
 }
+
+.contacto{
+  border: 0;
+}
+
+.contacto:hover{
+  background-color: transparent;
+}
