@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XFYmyY7qdSd6hEKLCYqR7t/gwhwIAVyCShf90iBwlMQ=",
+  "Hash": "Asdi5eBI6+Z9o0Zjhfuv0y8eKQcdfb/Z3R9EECQaeOs=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\img\\Balloon_Boy.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\candado.png",
+      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\candado.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
-      "RelativePath": "img/candado.png",
+      "RelativePath": "img/candado.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\candado.png"
+      "OriginalItemSpec": "wwwroot\\img\\candado.jpg"
     },
     {
       "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 1.jpeg",
