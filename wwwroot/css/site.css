@@ -239,7 +239,7 @@ a:hover {
   width: 8%;
   padding-bottom: 6%;
   border-left: 0;
-  margin-left: 67.4%;
+  margin-left: 67.6%;
   margin-top: 1%;
 }
 
@@ -607,4 +607,8 @@ hr{
 
 .contacto:hover{
   background-color: transparent;
+}
+
+.cocina{
+  margin-top: 2%;
 }
