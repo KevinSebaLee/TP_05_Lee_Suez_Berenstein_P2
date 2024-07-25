@@ -103,6 +103,13 @@ body{
   color: white;
 }
 
+.candado{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
 .index{
   margin: 0;
   padding: 0;

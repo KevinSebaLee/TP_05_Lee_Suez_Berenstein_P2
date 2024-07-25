@@ -10,6 +10,10 @@
             <div>
                 <b>Office</b>
             </div>
+
+            @if(!Escape.salasEscapadas[1]){
+                <img class="candado" src="~/img/candado.jpg">
+            }
         </a>
         
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="13"})' class="Desk">
