@@ -1,0 +1,42 @@
+<body>
+    @if(!Escape.salasEscapadas[15]){
+        @if(ViewBag.Error != null){
+            <p>@ViewBag.Error</p>
+        }
+
+        <h2>Temportizador: <span id="tiempo"></span></h2>
+
+        <script>
+            // Load the saved timer state from localStorage or set to 600 if none exists
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 3000;
+                
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        
+                // Save the current timer state to localStorage
+                localStorage.setItem('tiempo', tiempo);
+            
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                    // Reset timer in localStorage when the game is lost
+                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
+                }
+                tiempo--;
+            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
+        </script>
+
+        <p>Un hombre entra en un bar y le pide al camarero un vaso de agua. El barman se arrodilla buscando algo, saca un arma y le apunta al hombre que le acaba de hablar. El hombre dice «gracias» y se va</p>
+        <form action='@Url.Action("Habitacion")'>
+            <p>¿Que tenia el hombre para que le mostraran un arma?</p>
+            <input type="text" name="clave" autocomplete="off" required>
+            <input type="submit" value="Enviar">
+        </form>
+    }
+    else{
+        <b>Ya completo la sala!</b>
+        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+    }
+</body>

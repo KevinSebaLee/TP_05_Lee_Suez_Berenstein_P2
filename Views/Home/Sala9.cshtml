@@ -8,7 +8,7 @@
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 600;
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 3000;
                 
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);
@@ -25,7 +25,7 @@
                     localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
                 }
                 tiempo--;
-            }, 1200); // Changed interval to 1000ms (1 second) for accuracy
+            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
         </script>
 
         <p>Entras al baño 2 y te encuentras con 3 puertas, cada uno tiene una nota y estas llevan a una parte del codigo para escapar del Hall 1. Estas dicen lo siguiente:</p>

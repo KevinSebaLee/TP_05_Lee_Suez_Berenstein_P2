@@ -9,6 +9,8 @@
 
         @if(!Escape.salasEscapadas[6]){
             <h2>Temportizador: <span id="tiempo"></span></h2>
+            
+            <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
 
             @if(Escape.Graph.seIngresa(7) == true && Escape.Graph.seIngresa(8) == true && Escape.Graph.seIngresa(9) == true){
                 @if(ViewBag.activoSala == null){

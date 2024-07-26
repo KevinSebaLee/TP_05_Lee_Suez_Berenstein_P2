@@ -18,6 +18,16 @@
                 <b>Front Desk</b>
                 <b>Puppet box</b>
             </div>
+
+            @if(!Escape.Graph.seIngresa(6)){
+                <style>
+                    .Desk{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
         
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="14"})' class="Parts">
@@ -25,11 +35,15 @@
             <div>
                 <b>Parts & Service</b>
             </div>
-
-            @if(!Escape.salasEscapadas[14]){
-                <div class="candado">
-                    <img src="~/img/candado.jpg">
-                </div>
+        
+            @if(!Escape.Graph.seIngresa(6)){
+                <style>
+                    .Parts{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
             }
         </a>
 
@@ -38,6 +52,16 @@
             <div>
                 <b>Main State</b>
             </div>
+
+            @if(!Escape.Graph.seIngresa(6)){
+                <style>
+                    .State{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
 
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="2"})' class="KidsCove">
@@ -52,6 +76,16 @@
             <div>
                 <b>Hall 2</b>
             </div>
+
+            @if(!(Escape.Graph.seIngresa(1) && Escape.Graph.seIngresa(2) && Escape.Graph.seIngresa(3) && Escape.Graph.seIngresa(4))){
+                <style>
+                    .Hall2{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
 
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="3"})' class="PartyRoom">
@@ -73,6 +107,16 @@
             <div>
                 <b>Hall 1</b>
             </div>
+
+            @if(!(Escape.Graph.seIngresa(5) == true && Escape.Graph.seIngresa(8) == true && Escape.Graph.seIngresa(9) == true && Escape.Graph.seIngresa(7) == true)){
+                <style>
+                    .Hall1{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
 
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="7"})' class="Arcade">
@@ -80,6 +124,16 @@
             <div>
                 <b>Arcade</b>
             </div>
+
+            @if(!(Escape.Graph.seIngresa(5) == true)){
+                <style>
+                    .Arcade{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
 
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="8"})' class="Bath1">
@@ -87,6 +141,16 @@
             <div>
                 <b>Bathroom 1</b>
             </div>
+
+            @if(!(Escape.Graph.seIngresa(5) == true)){
+                <style>
+                    .Bath1{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
 
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="9"})' class="Bath2">
@@ -94,6 +158,16 @@
             <div>
                 <b>Bathroom 2</b>
             </div>
+
+            @if(!(Escape.Graph.seIngresa(5) == true)){
+                <style>
+                    .Bath2{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
         <hr>
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="10"})' class="Dining">
@@ -101,6 +175,16 @@
             <div>
                 <b>Showroom / Dining</b>
             </div>
+
+            @if(!Escape.Graph.seIngresa(6)){
+                <style>
+                    .Dining{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>
         
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="16"})' class="Exit">
@@ -108,18 +192,48 @@
             <div>
                 <b>Exit</b>
             </div>
+
+            @if(!(Escape.Graph.seIngresa(6) && Escape.Graph.seIngresa(10) && Escape.Graph.seIngresa(11) && Escape.Graph.seIngresa(12) && Escape.Graph.seIngresa(13) && Escape.Graph.seIngresa(14) && Escape.Graph.seIngresa(15))){
+                <style>
+                    .Exit{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a> 
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="11"})' class="KidCare">
             @{Escape.estadoJuego = 11;}
             <div>
                 <b>Kid Care Zone</b>
             </div>
+
+            @if(!Escape.Graph.seIngresa(6)){
+                <style>
+                    .KidCare{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>   
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="12"})' class="Kitchen">
             @{Escape.estadoJuego = 12;}
             <div>
                 <b>Kitchen</b>
             </div>
+
+            @if(!Escape.Graph.seIngresa(6)){
+                <style>
+                    .Kitchen{
+                        background-image: url('../img/candado.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                </style>
+            }
         </a>   
         
     </section>
