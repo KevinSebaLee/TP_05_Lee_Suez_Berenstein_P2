@@ -38,7 +38,7 @@ static class Escape
         
         vidas = 5;
 
-        Graph = new RoomGraph(16);
+        Graph = new RoomGraph(17);
 
         Graph.AddConnection(1, 2); Graph.AddConnection(1, 3); Graph.AddConnection(1, 4); Graph.AddConnection(1, 5);
         Graph.AddConnection(5, 6);
