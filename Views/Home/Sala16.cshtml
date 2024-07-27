@@ -1,0 +1,72 @@
+<body>
+    <div>
+        @if(ViewBag.Error != null){
+            <p class="Error">@ViewBag.Error</p>
+        }
+
+        <h2>Temportizador: <span id="tiempo"></span></h2>
+            
+        <script>
+                // Load the saved timer state from localStorage or set to 600 if none exists
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 3600;
+                    
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            
+                // Save the current timer state to localStorage
+                localStorage.setItem('tiempo', tiempo);
+            
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                    // Reset timer in localStorage when the game is lost
+                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
+                }
+                tiempo--;
+            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
+        </script>
+
+        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+        <img src="~/img/hall2.webp">
+
+        @if(Escape.Graph.seIngresa(10) == true && Escape.Graph.seIngresa(11) == true && Escape.Graph.seIngresa(12) == true && Escape.Graph.seIngresa(13) == true && Escape.Graph.seIngresa(14) == true && Escape.Graph.seIngresa(15) == true){
+            @if(ViewBag.activoSala == null){
+                <div class="Hoja">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Insercion de contraseñas</a>
+                </div>
+            }else{
+                <div class="HojaActivada1">
+                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
+                    <b>Acertijo de los Cuatro Números
+                        Imagina que tienes cuatro números: A, B, C y D. Basándote en las siguientes pistas encuentre el numero:
+
+                        <br><br>
+
+                        <p>El número A es el menor de los seis.</p>
+                        <p>El número B está en la tercera posición.</p>
+                        <p>El número C es el mayor de los seis.</p>
+                        <p>El número D está inmediatamente antes de C.</p>
+                        <p>El número E está en la segunda posición.</p>
+                        <p>El número F está en la quinta posición.</p>
+                        <p>El número A está en la primera posición.</p>
+                            
+                        <br><br>
+
+                        Se puede fijar los numeros en la pestaña progreso que se encuentra en el mapa.
+                    </b>
+
+                    <form action='@Url.Action("Habitacion")'>
+                        <input type="number" name="clave" min="0" max="9999" autocomplete="off" required>
+                        <input type="submit" value="Enviar Respuesta">
+                    </form>
+                </div>
+            }
+        }
+        else{
+            <p class="Error1">No completo las anteriores salas. No puede ingresar nada.</p>
+            <a class="Volver" href='@Url.Action("Mapa")'>Volver al mapa</a>
+        }
+    </div>
+</body>

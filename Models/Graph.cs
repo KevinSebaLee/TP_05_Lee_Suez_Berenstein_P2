@@ -23,7 +23,7 @@ public class RoomGraph
         }
     }
 
-    public void AddConnection(int room1, int room2)
+    public void     AddConnection(int room1, int room2)
     {
         connections[room1].Add(room2);
         connections[room2].Add(room1);
