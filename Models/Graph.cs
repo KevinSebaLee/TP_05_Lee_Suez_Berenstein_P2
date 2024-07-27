@@ -1,6 +1,6 @@
 public class RoomGraph
 {
-    private int numRooms = 16;
+    private int numRooms;
     private List<int>[] connections;
     public bool SeCompleto;
 

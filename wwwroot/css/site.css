@@ -156,7 +156,7 @@ a:hover {
 
 .Parts{
   width: 9%;
-  margin-left: -5.2%;
+  margin-left: -5.78%;
   padding-bottom: 7%;
   float:left;
 }
@@ -169,6 +169,7 @@ a:hover {
   float: left;
   margin-left: 24%;
   margin-top: 8.5%;
+  padding-right: 0.5%;
   padding-bottom: 10%;
 }
 
@@ -244,7 +245,7 @@ a:hover {
   border-left: 0;
   border-right: 0;
   margin-top: 0%;
-  margin-left: 22.5%;
+  margin-left: 22%;
   float: left;
 }
 

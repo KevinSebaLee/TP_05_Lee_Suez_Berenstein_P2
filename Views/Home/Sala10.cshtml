@@ -8,7 +8,7 @@
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 600;
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 3600;
                 
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);

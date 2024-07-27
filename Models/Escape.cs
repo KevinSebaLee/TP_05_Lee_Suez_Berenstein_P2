@@ -31,11 +31,6 @@ static class Escape
             DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         }while(!(DigitosHall1[0] < DigitosHall1[1] && DigitosHall1[0] < DigitosHall1[2] && DigitosHall1[2] > DigitosHall1[1]));
 
-        do{
-            exitCodigo = rnd.Next(100, 999);
-            DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
-        }while(true);
-
         incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "", "tostadora", "", "59", "hipo", ""};
 
         salasEscapadas = new bool[16];
@@ -43,7 +38,7 @@ static class Escape
         
         vidas = 5;
 
-        Graph = new RoomGraph(17);
+        Graph = new RoomGraph(16);
 
         Graph.AddConnection(1, 2); Graph.AddConnection(1, 3); Graph.AddConnection(1, 4); Graph.AddConnection(1, 5);
         Graph.AddConnection(5, 6);
