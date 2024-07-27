@@ -4,7 +4,8 @@ static class Escape
     public static bool[] salasEscapadas { get; set; }
     public static int[] DigitosHall2 {get; set;}
     public static int[] DigitosHall1 {get; set;}
-    private static int hall2Codigo, hall1Codigo;
+    public static int[] DigitosExit{get; set;}
+    private static int hall2Codigo, hall1Codigo, exitCodigo;
     public static int vidas;
     public static RoomGraph Graph;
     public static int estadoJuego = 1;
@@ -15,8 +16,10 @@ static class Escape
 
         DigitosHall1 = new int[3];
         DigitosHall2 = new int[4];
+        DigitosExit = new int[6];
         Array.Fill(DigitosHall1, 0);
         Array.Fill(DigitosHall2, 0);
+        Array.Fill(DigitosExit, 0);
 
         do{
             hall2Codigo = rnd.Next(1000, 9999);
@@ -27,6 +30,11 @@ static class Escape
             hall1Codigo = rnd.Next(100, 999);
             DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         }while(!(DigitosHall1[0] < DigitosHall1[1] && DigitosHall1[0] < DigitosHall1[2] && DigitosHall1[2] > DigitosHall1[1]));
+
+        do{
+            exitCodigo = rnd.Next(100, 999);
+            DigitosHall1 = hall1Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
+        }while(true);
 
         incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "", "tostadora", "", "59", "hipo", ""};
 
