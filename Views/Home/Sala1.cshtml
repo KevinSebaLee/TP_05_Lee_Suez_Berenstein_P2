@@ -8,16 +8,7 @@
             <p class="Error">@ViewBag.Error</p>
         }
 
-        @if(ViewBag.Pista == null){
-            <div class="pistas">
-                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="2"})'>Pistas</a>
-            </div>
-        }
-        else{
-            <div class="pistasActivadas">
-                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="3"})'>Salir</a>
-            </div>
-        }
+        @if(!(Escape.salasEscapadas[1])){<a href='@Url.Action("Pistas")'>Pistas</a>}
 
         <img src="/img/OfficeClean.jpg">
 

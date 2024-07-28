@@ -13,35 +13,17 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Tutorial()
-    {
-        return View();
-    }
-    public IActionResult Victoria()
-    {
-        return View();
-    }
-
-    public IActionResult Creditos(){
-        return View();
-    }
-
-    public IActionResult Mapa(){
-        return View();
-    }
+    public IActionResult Index(){return View();}
+    public IActionResult Tutorial(){return View();}
+    public IActionResult Victoria(){return View();}
+    public IActionResult Creditos(){return View();}
+    public IActionResult Mapa(){return View();}
+    public IActionResult Progreso(){return View();}
+    public IActionResult Pistas(){return View();}
 
     public IActionResult Comenzar(){
         Escape.InicializarJuego();
         return RedirectToAction("Mapa");
-    }
-
-    public IActionResult Progreso(){
-        return View();
     }
 
     public IActionResult ApretoBoton(string ApretoBoton){
