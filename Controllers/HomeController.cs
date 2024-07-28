@@ -48,6 +48,9 @@ public class HomeController : Controller
         if(ApretoBoton == "1"){
             ViewBag.activoSala = "5";
         }
+        else if(ApretoBoton == "2"){
+            ViewBag.Pista = "2";
+        }
 
         return View($"Sala{Escape.GetEstadoJuego()}");
     }

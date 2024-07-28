@@ -1,9 +1,24 @@
+@{
+    int pistasUsadas = 0;
+}
+
 <body>
     <div class="Nivel1">
         @if(ViewBag.Error != null){
             <p class="Error">@ViewBag.Error</p>
         }
-        
+
+        @if(ViewBag.Pista == null){
+            <div class="pistas">
+                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="2"})'>Pistas</a>
+            </div>
+        }
+        else{
+            <div class="pistasActivadas">
+                <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="3"})'>Salir</a>
+            </div>
+        }
+
         <img src="/img/OfficeClean.jpg">
 
         @if(!(Escape.salasEscapadas[1])){
