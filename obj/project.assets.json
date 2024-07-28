@@ -8,53 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Usuario\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Tung Shu Lee\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
       "projectName": "TP_05_Lee_Suez_Berenstein",
       "projectPath": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
-      "projectName": "TP_05_Lee_Suez_Berenstein",
-      "projectPath": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
-      "packagesPath": "C:\\Users\\Tung Shu Lee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\obj\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "C:\\Users\\Tung Shu Lee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-<<<<<<< HEAD
-=======
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -91,12 +67,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

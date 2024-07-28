@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "PfmY5FL7oV9Ee5iW6/ejzGGTVDVHK/IzYqqI1up6+Lw=",
-=======
-  "Hash": "Asdi5eBI6+Z9o0Zjhfuv0y8eKQcdfb/Z3R9EECQaeOs=",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "TP_05_Lee_Suez_Berenstein\\wwwroot",
       "Source": "TP_05_Lee_Suez_Berenstein",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\css\\site.css",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\css\\site.css",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -51,17 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\favicon.ico",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\favicon.ico",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -77,17 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Balloon_Boy.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Balloon_Boy.jpg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Balloon_Boy.jpg",
       "AssetKind": "All",
@@ -103,17 +74,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Balloon_Boy.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\candado.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\candado.jpg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/candado.jpg",
       "AssetKind": "All",
@@ -129,17 +93,10 @@
       "OriginalItemSpec": "wwwroot\\img\\candado.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 1.jpeg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 1.jpeg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Carousel 1.jpeg",
       "AssetKind": "All",
@@ -155,17 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Carousel 1.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\carousel 2.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\carousel 2.jpg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/carousel 2.jpg",
       "AssetKind": "All",
@@ -181,17 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel 2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 3.jpeg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Carousel 3.jpeg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Carousel 3.jpeg",
       "AssetKind": "All",
@@ -207,17 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Carousel 3.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Cocina.webp",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Cocina.webp",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Cocina.webp",
       "AssetKind": "All",
@@ -233,17 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Cocina.webp"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Hall1.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Hall1.jpg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Hall1.jpg",
       "AssetKind": "All",
@@ -259,17 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Hall1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\hall2.webp",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\hall2.webp",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/hall2.webp",
       "AssetKind": "All",
@@ -285,17 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hall2.webp"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Logo FNAF.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Logo FNAF.png",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Logo FNAF.png",
       "AssetKind": "All",
@@ -311,17 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo FNAF.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaEscapeRoom.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaEscapeRoom.jpg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/MapaEscapeRoom.jpg",
       "AssetKind": "All",
@@ -337,17 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MapaEscapeRoom.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaFNAFSinEdicion.jpeg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\MapaFNAFSinEdicion.jpeg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/MapaFNAFSinEdicion.jpeg",
       "AssetKind": "All",
@@ -363,17 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MapaFNAFSinEdicion.jpeg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño1.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño1.png",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño1.png",
       "AssetKind": "All",
@@ -389,17 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño1.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño2.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño2.png",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño2.png",
       "AssetKind": "All",
@@ -415,17 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño3.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño3.png",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño3.png",
       "AssetKind": "All",
@@ -441,17 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño3.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño4.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño4.png",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño4.png",
       "AssetKind": "All",
@@ -467,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño4.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño5.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño5.png",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/niño5.png",
       "AssetKind": "All",
@@ -493,17 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\niño5.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\OfficeClean.jpg",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\OfficeClean.jpg",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/OfficeClean.jpg",
       "AssetKind": "All",
@@ -519,17 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OfficeClean.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/screamer.gif",
       "AssetKind": "All",
@@ -545,17 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\screamer.gif"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "img/Ventilacion.jfif",
       "AssetKind": "All",
@@ -571,17 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ventilacion.jfif"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\js\\site.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\js\\site.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -597,17 +435,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -623,17 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -649,17 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -675,17 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -701,17 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -727,17 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -753,17 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -779,17 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -805,17 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -831,17 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -857,17 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -883,17 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -909,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\sounds\\Fnaf Jumpscare Sound Effect.mp3",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\sounds\\Fnaf Jumpscare Sound Effect.mp3",
-      "SourceId": "TP_05_Lee_Suez_Berenstein",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
->>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
       "RelativePath": "sounds/Fnaf Jumpscare Sound Effect.mp3",
       "AssetKind": "All",
