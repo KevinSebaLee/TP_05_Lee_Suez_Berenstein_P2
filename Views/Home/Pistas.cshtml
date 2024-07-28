@@ -1,11 +1,10 @@
 @{
-    int pistasUsadas = 0;
 
     var Pistas = new Dictionary<int, (string, string, string)>{
         {1, ("Fijese detalladamente en la forma de los numeros", "Tendran algo que ver los circulos que forman algunos numeros?", "Podra ser que la cantidad de circulos que hay en cada numero se relaciona con los numeros que nos dan?")},
         {2, ("La figura es un cuadrilatero", "Tiene 2 lados paralelos", "Sera algo como un rombo?")},
         {4, ("Es una objeto de la cocina", "Viene en una caja con decenas de ellos", "Sirve para prender fuego")},
-        {7, ("Es parecido a la de la cuarta sala", "Es la caja de ese elemento", "Sera una caja de cerillas?")},
+        {7, ("Es parecido a la de la cuarta sala", "Es la caja de ese elemento", "Sera una caja?")},
         {11, ("", "", "")},
         {12, ("Es un objeto de la cocina", "Se usa para preparar un elemento de un sandwich", "Se usa para calentar el pan")},
         {13, ("", "", "")},
@@ -18,8 +17,8 @@
 
     @if(Pistas.ContainsKey(Escape.GetEstadoJuego())){
         (string pista1, string pista2, string pista3) = Pistas[Escape.GetEstadoJuego()];
-        if(pistasUsadas == 0){<p>Pista 1: @pista1</p>}
-        else if(pistasUsadas == 1){<p>Pista 2: @pista2</p>}
-        else if(pistasUsadas == 2){<p>Pista 3: @pista3</p>}
+        <h2>Pista 1: @pista1</h2>
+        <h2>Pista 2: @pista2</h2>
+        <h2>Pista 3: @pista3</h2>
     }
 </body>
