@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BDIyS4kLprM=",
+  "dgSpecHash": "uPQ7H3NE5dQFRG49Pd+6m8+JsSYVOBj3zh4PMrnT1StrNFtzrO94cAYmt0oSeC98SkQB+w++KH+QGnjuq4Ku7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
+  "projectFilePath": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

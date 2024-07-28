@@ -44,7 +44,7 @@ static class Escape
             maxNumber = DigitosExit.Max();
         }while(!(DigitosExit[0] == minNumber && DigitosExit[2] == maxNumber));
 
-        incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "", "tostadora", "", "59", "hipo", ""};
+        incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "Cual puerta lleva al dragon", "tostadora", "1694", "59", "hipo", ""};
 
         salasEscapadas = new bool[16];
         Array.Fill(salasEscapadas, false);
