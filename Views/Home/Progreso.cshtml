@@ -1,3 +1,22 @@
+@{
+    var Codigos = new Dictionary<int, (string, int)>
+    {
+        { 1, ("Numero A para el Hall 2", Escape.DigitosHall2[0]) },
+        { 2, ("Numero B para el Hall 2", Escape.DigitosHall2[1]) },
+        { 3, ("Numero C para el Hall 2", Escape.DigitosHall2[3]) },
+        { 4, ("Numero D para el Hall 2", Escape.DigitosHall2[2]) },
+        { 7, ("Numero A para el Hall 1", Escape.DigitosHall1[0]) },
+        { 8, ("Numero B para el Hall 1", Escape.DigitosHall1[1]) },
+        { 9, ("Numero C para el Hall 1", Escape.DigitosHall1[2]) },
+        { 10, ("Numero A para la Exit", Escape.DigitosExit[0]) },
+        { 11, ("Numero B para la Exit", Escape.DigitosExit[2]) },
+        { 12, ("Numero C para la Exit", Escape.DigitosExit[5]) },
+        { 13, ("Numero D para la Exit", Escape.DigitosExit[3]) },
+        { 14, ("Numero E para la Exit", Escape.DigitosExit[1]) },
+        { 15, ("Numero F para la Exit", Escape.DigitosExit[4]) }
+    };
+}
+
 <body class="progreso">
 
     <a href='@Url.Action("Mapa")'>Voler al Mapa</a>
@@ -29,26 +48,13 @@
                 <p class="NoEscapo">No escapo aún</p>
             }else{
                 <p class="Escapo">Escapó!</p> 
-                @if(i == 1){
-                    <p>Numero A para el Hall 2: <b>@Escape.DigitosHall2[0]</b></p>
-                }else if(i == 2){
-                    <p>Numero B para el Hall 2: <b>@Escape.DigitosHall2[1]</b></p>
-                }else if(i == 3){
-                    <p>Numero C para el Hall 2: <b>@Escape.DigitosHall2[3]</b></p>
-                }else if(i == 4){
-                    <p>Numero D para el Hall 2: <b>@Escape.DigitosHall2[2]</b></p>
-                }
-                else if(i == 7){
-                    <p>Numero A para el Hall 1: <b>@Escape.DigitosHall1[0]</b></p>
-                }
-                else if(i == 8){
-                    <p>Numero B para el Hall 1: <b>@Escape.DigitosHall1[1]</b></p>
-                }
-                else if(i == 9){
-                    <p>Numero C para el Hall 1: <b>@Escape.DigitosHall1[2]</b></p>
-                }
 
-
+                if(Codigos.ContainsKey(i))
+                {
+                    (string text, int digit) = Codigos[i];
+                    <p>@text: <b>@digit</b></p>
+                }
+                
             }<br>
         }
     }
