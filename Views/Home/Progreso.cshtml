@@ -33,7 +33,7 @@
                 <h2>Seccion 3</h2>
             }
 
-            if(i != 5 && i != 6){
+            if(i != 5 && i != 6 && i != 16){
                 <p>Sala @(i):</p>
             }
             else if(i == 5){
@@ -41,6 +41,9 @@
             }
             else if(i == 6){
                 <p>Hall 1:</p>
+            }
+            else if(i == 16){
+                <p>Exit:</p>
             }
             
             @if(Escape.salasEscapadas[i] == false)

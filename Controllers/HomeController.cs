@@ -41,7 +41,7 @@ public class HomeController : Controller
         int sala = Escape.GetEstadoJuego();
 
         if(Escape.ResolverSala(clave.ToLower())){
-            if(Escape.GetEstadoJuego() == 17){
+            if(Escape.GetEstadoJuego() == 16){
                 return View("Victoria");
             }
 

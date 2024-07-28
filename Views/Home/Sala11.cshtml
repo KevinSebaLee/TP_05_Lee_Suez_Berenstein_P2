@@ -1,5 +1,5 @@
 <body>
-    @if(!Escape.salasEscapadas[10]){
+    @if(!Escape.salasEscapadas[11]){
         @if(ViewBag.Error != null){
             <p>@ViewBag.Error</p>
         }
@@ -34,7 +34,7 @@
 
         <form action='@Url.Action("Habitacion")'>
             <p>¿Qué pregunta harías para escapar?</p>
-            <input type="number" name="clave" min="0" autocomplete="off" required>
+            <input type="text" name="clave" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>
     }
