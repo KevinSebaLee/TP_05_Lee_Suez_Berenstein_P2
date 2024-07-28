@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "BDIyS4kLprM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
+=======
+  "dgSpecHash": "uPQ7H3NE5dQFRG49Pd+6m8+JsSYVOBj3zh4PMrnT1StrNFtzrO94cAYmt0oSeC98SkQB+w++KH+QGnjuq4Ku7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tung Shu Lee\\Desktop\\TP_05_Lee_Suez_Berenstein\\TP_05_Lee_Suez_Berenstein.csproj",
+>>>>>>> b4b987fc69f294401bfae430eaf11cea63d75d90
   "expectedPackageFiles": [],
   "logs": []
 }
