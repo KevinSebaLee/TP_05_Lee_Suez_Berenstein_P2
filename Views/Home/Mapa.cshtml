@@ -1,8 +1,9 @@
 <body class="Fondo">
 
     <a href='@Url.Action("Progreso")' class="Progreso"><h2>Ver el Progreso</h2></a>
-
+    
     <h1 class="error">@ViewBag.Error</h1>
+    <h2>Algunas salas no tienen pistas debido a que son simples o de logica.</h2>
 
     <section>
         <a href='@Url.Action("IrASala", "Home", new{numeroSala="1"})' class="Oficina">
