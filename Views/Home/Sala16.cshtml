@@ -28,7 +28,7 @@
         </script>
 
         <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
-        <img src="~/img/hall2.webp">
+        <img class="exit" src="~/img/Exit.webp">
 
         @if(Escape.Graph.seIngresa(10) == true && Escape.Graph.seIngresa(11) == true && Escape.Graph.seIngresa(12) == true && Escape.Graph.seIngresa(13) == true && Escape.Graph.seIngresa(14) == true && Escape.Graph.seIngresa(15) == true){
             @if(ViewBag.activoSala == null){
@@ -36,25 +36,24 @@
                     <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Insercion de contraseñas</a>
                 </div>
             }else{
-                <div class="HojaActivada1">
+                <div class="HojaActivada2">
                     <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
-                    <b>Acertijo de los Cuatro Números
-                        Imagina que tienes cuatro números: A, B, C, D, E y F. Basándote en las siguientes pistas encuentre el numero:
+                    <b>Acertijo de los Cuatro Números</b>
+                    <p>Imagina que tienes cuatro números: A, B, C, D, E y F. Basándote en las siguientes pistas encuentre el numero:</p>
 
-                        <br><br>
+                    <br><br>
 
-                        <p>El número A es el menor de los seis.</p>
-                        <p>El número B está en la tercera posición.</p>
-                        <p>El número C es el mayor de los seis.</p>
-                        <p>El número D está inmediatamente antes de C.</p>
-                        <p>El número E está en la segunda posición.</p>
-                        <p>El número F está en la quinta posición.</p>
-                        <p>El número A está en la primera posición.</p>
+                    <p>El número A es el menor de los seis.</p>
+                    <p>El número B está en la tercera posición.</p>
+                    <p>El número C es el mayor de los seis.</p>
+                    <p>El número D está inmediatamente antes de C.</p>
+                    <p>El número E está en la segunda posición.</p>
+                    <p>El número F está en la quinta posición.</p>
+                    <p>El número A está en la primera posición.</p>
                             
-                        <br><br>
+                    <br><br>
 
-                        Se puede fijar los numeros en la pestaña progreso que se encuentra en el mapa.
-                    </b>
+                    <p>Se puede fijar los numeros en la pestaña progreso que se encuentra en el mapa.</p>
 
                     <form action='@Url.Action("Habitacion")'>
                         <input type="number" name="clave" min="0" max="999999" autocomplete="off" required>

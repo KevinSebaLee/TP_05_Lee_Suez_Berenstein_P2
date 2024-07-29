@@ -4,9 +4,9 @@
             <p>@ViewBag.Error</p>
         }
 
-        <h2>Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
 
-        <a href='@Url.Action("Pistas")'>Pistas</a>
+        <a class="botonMapa" href='@Url.Action("Pistas")'>Pistas</a>
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
@@ -30,16 +30,15 @@
             }, 1000); // Changed interval to 1000ms (1 second) for accuracy
         </script>
 
-        <p>Un niño te cuenta que si resuelves este acertijo, te daria una parte del codigo para salir del Hall 1. Esto fue lo que les dijo:</p>
-        <p>Trae algo para que ocupe todo el arcade, pero pequeño para que quepa en tu bolsillo".</p>
+        <p class="consigna">Un niño te cuenta que si resuelves este acertijo, te daria una parte del codigo para salir del Hall 1. Esto fue lo que les dijo: Trae algo para que ocupe todo el arcade, pero pequeño para que quepa en tu bolsillo".</p>
         <form action='@Url.Action("Habitacion")'>
-            <p>¿Que le tendrias que entregar para que te de el codigo?</p>
-            <input type="text" name="clave" autocomplete="off" required>
+            <p class="pregunta">¿Que le tendrias que entregar para que te de el codigo?</p>
+            <input class="input" type="text" name="clave" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>
     }
     else{
-        <b>Ya completo la sala!</b>
-        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+        <b class="finishedRoom">Ya completo la sala!</b>
+        <a class="botonMapa" href='@Url.Action("Mapa")'>Volver al Mapa</a>
     }
 </body>

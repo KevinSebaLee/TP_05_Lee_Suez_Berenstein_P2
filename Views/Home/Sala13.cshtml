@@ -4,7 +4,7 @@
             <p>@ViewBag.Error</p>
         }
 
-        <h2>Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
@@ -28,16 +28,18 @@
             }, 1200); // Changed interval to 1000ms (1 second) for accuracy
         </script>
 
-        <p>Encuentra el número de cuatro dígitos en el que el primer dígito es un cuarto del último dígito, el segundo dígito es 6 veces el primer dígito y el tercer dígito es el segundo dígito más 3.</p>
+        <p class="consigna">Encuentra el número de cuatro dígitos en el que el primer dígito es un cuarto del último dígito, el segundo dígito es 6 veces el primer dígito y el tercer dígito es el segundo dígito más 3.</p>
 
         <form action='@Url.Action("Habitacion")'>
-            <p>¿Cual es el numero?</p>
-            <input type="text" name="clave" autocomplete="off" required>
+            <p class="pregunta">¿Cual es el numero?</p>
+            <input class="input" type="text" name="clave" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>
+
+        <img class="clave4Digitos" src="~/img/Clave4Digitos.png">
     }
     else{
-        <b>Ya completo la sala!</b>
-        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+        <b class="finishedRoom">Ya completo la sala!</b>
+        <a class="botonMapa" href='@Url.Action("Mapa")'>Volver al Mapa</a>
     }
 </body>

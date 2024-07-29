@@ -4,7 +4,7 @@
             <p>@ViewBag.Error</p>
         }
 
-        <h2>Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
@@ -28,16 +28,18 @@
             }, 1200); // Changed interval to 1000ms (1 second) for accuracy
         </script>
 
-        <p>Los amigos de Koska, estaban juntando plata para comprarle un regalo. Al principio, sus 10 amigos contribuyeron, pero 2 de ellos se echaron atrás. Cada uno de los 8 que sí pusieron plata tuvo que aportar otros 10 euros para recuperar la cantidad. </p>
+        <p class="consigna">Los amigos de Koska, estaban juntando plata para comprarle un regalo. Al principio, sus 10 amigos contribuyeron, pero 2 de ellos se echaron atrás. Cada uno de los 8 que sí pusieron plata tuvo que aportar otros 10 euros para recuperar la cantidad. </p>
 
         <form action='@Url.Action("Habitacion")'>
-            <p>¿Cuánto dinero pensaban recaudar entre todos al principio?</p>
-            <input type="number" name="clave" min="0" autocomplete="off" required>
+            <p class="pregunta">¿Cuánto dinero pensaban recaudar entre todos al principio?</p>
+            <input class="input" type="number" name="clave" min="0" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>
+
+        <img class="party1" src="~/img/PartyRoom.webp">
     }
     else{
-        <b>Ya completo la sala!</b>
-        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+        <b class="finishedRoom">Ya completo la sala!</b>
+        <a class="botonMapa" href='@Url.Action("Mapa")'>Volver al Mapa</a>
     }
 </body>

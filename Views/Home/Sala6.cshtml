@@ -5,13 +5,15 @@
             <p class="Error">@ViewBag.Error</p>
         }
 
+        @if(!(Escape.salasEscapadas[6])){
+            <a class="botonMapa1" href='@Url.Action("Mapa")'>Volver al Mapa</a>
+        }
+
         <img src="~/img/Hall1.jpg">
 
         @if(!Escape.salasEscapadas[6]){
-            <h2>Temportizador: <span id="tiempo"></span></h2>
-            
-            <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
-
+            <h2 class="tempoHall1">Temportizador: <span id="tiempo"></span></h2>
+        
             @if(Escape.Graph.seIngresa(7) == true && Escape.Graph.seIngresa(8) == true && Escape.Graph.seIngresa(9) == true){
                 @if(ViewBag.activoSala == null){
                     <div class="Hoja">
@@ -23,12 +25,17 @@
                         <b>Acertijo de los Cuatro Números
                             Imagina que tienes cuatro números: A, B, C y D. Basándote en las siguientes pistas encuentre el numero:
 
-                            <ul>
-                                <li>El número A es el menor de los tres.</li>
-                                <li>El número B está en la segunda posición.</li>
-                                <li>El número C es el mayor de los tres.</li>
-                                <li>El número A está en la primera posición. </li>
-                            </ul>
+                            <br><br>
+
+                            El número A es el menor de los tres.
+                            <br>
+                            El número B está en la segunda posición.
+                            <br>
+                            El número C es el mayor de los tres.
+                            <br>
+                            El número A está en la primera posición. 
+                            
+                            <br><br>
 
                             Se puede fijar los numeros en la pestaña progreso que se encuentra en el mapa.
                         </b>

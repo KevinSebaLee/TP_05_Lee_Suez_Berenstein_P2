@@ -4,7 +4,7 @@
             <p>@ViewBag.Error</p>
         }
 
-        <h2>Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
 
         <script>
             let tiempo = parseInt(localStorage.getItem('tiempo')) || 3600;
@@ -27,8 +27,8 @@
             }, 1000);
         </script>
 
-        <p>Entras al baño 1 y te encuentras con 4 cajas que cada una tiene una nota y en una de ellas tiene una parte del codigo para la siguiente sala. Si te equivocas a la hora de elegir, perdes 1 vida. Estas dicen lo siguiente:</p>
-        <ul>
+        <p class="consigna">Entras al baño 1 y te encuentras con 4 cajas que cada una tiene una nota y en una de ellas tiene una parte del codigo para la siguiente sala. Si te equivocas a la hora de elegir, perdes 1 vida. Estas dicen lo siguiente:</p>
+        <ul class="ListConsigna">
             <li>Caja 1: La clave no esta aqui</li>
             <li>Caja 2: La nota de la caja 1 dice la verdad</li>
             <li>Caja 3: La nota no esta en la Caja 2</li>
@@ -36,13 +36,13 @@
         </ul>
 
         <form action='@Url.Action("Habitacion")'>
-            <p>¿Cual es la caja correcta? (Ingrese el numero nada mas.)</p>
-            <input type="number" name="clave" min="1" max="4" autocomplete="off" required>
+            <p class="pregunta">¿Cual es la caja correcta? (Ingrese el numero nada mas.)</p>
+            <input class="input" type="number" name="clave" min="1" max="4" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>
     }
     else{
-        <b>Ya completo la sala!</b>
-        <a href='@Url.Action("Mapa")'>Volver al Mapa</a>
+        <b class="finishedRoom">Ya completo la sala!</b>
+        <a class="botonMapa" href='@Url.Action("Mapa")'>Volver al Mapa</a>
     }
 </body>

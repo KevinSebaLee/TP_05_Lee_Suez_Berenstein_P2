@@ -1,8 +1,8 @@
 <body class="sala2">
     @if(!(Escape.salasEscapadas[2])){
-        <h2>Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
 
-        <a href='@Url.Action("Pistas")'>Pistas</a>
+        <a class="botonMapa" href='@Url.Action("Pistas")'>Pistas</a>
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
@@ -30,16 +30,6 @@
         <div class="Contexto">
             <img src="/img/Balloon_Boy.jpg">
             <h3>Balloon Boy tenía un salón con una sola rejilla de ventilación, cuadrada y de 1m de alto por 1m de ancho. Balloon Boy tenía un problema ocular, y la ventaja dejaba entrar mucha luz. Te llamo a ti y te pidió que alterara la ventana para que sólo entrara la mitad de la luz. Pero tenía que seguir siendo cuadrada y con las mismas dimensiones de 1x1 metros. Solo se puede cambiar la forma de la ventilación. ¿Cuál sería la forma de la ventilación para que Balloon Boy pueda cumplir su objetivo?</h3>
-            @if(ViewBag.activoSala == null){
-                <div class="Boton">
-                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="1"})'>Mostrar ventanilla</a>
-                </div>
-            }else{
-                <div class="Boton">
-                    <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
-                    <img src="~/img/Ventilacion.jfif">
-                </div>
-            }
 
             <form class="Form2" action='@Url.Action("Habitacion")'>
                 <p>¿Cuál es la respuesta?</p>
@@ -53,7 +43,7 @@
         </div>
     }
     else{
-        <b>Ya completo la sala!</b>
-        <a href='@Url.Action("Mapa")'>Volver al mapa</a>
+        <b class="finishedRoom">Ya completo la sala!</b>
+        <a class="botonMapa" href='@Url.Action("Mapa")'>Volver al Mapa</a>
     }
 </body>

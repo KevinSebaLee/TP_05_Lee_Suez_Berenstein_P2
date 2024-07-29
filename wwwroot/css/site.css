@@ -462,7 +462,7 @@ a:hover {
 
 .Tempo{
   margin-top: -50%;
-  margin-left: -15%;
+  margin-left: 0%;
 }
 
 hr{
@@ -506,7 +506,7 @@ hr{
 
 .Volver{
   position: absolute;
-  margin-top: 20%;
+  margin-top: 2%;
   margin-left: 45%;
   border: 0;
   background-color: gray;
@@ -589,6 +589,7 @@ hr{
 }
 
 .screamer h1{
+  font-size: 400%;
   text-align: center;
 }
 
@@ -607,4 +608,136 @@ hr{
 
 .cocina{
   margin-top: 2%;
+}
+
+.HojaActivada2{
+  position: absolute;
+  background-color: white;
+  margin-right: 33%;
+  margin-left: 33%;
+  margin-top: -70%;
+  padding-bottom: 30%;
+}
+
+.HojaActivada2 a{
+  background-color: black;
+  transition: 0.25s background-color;
+  margin-left: 90%;
+}
+
+.HojaActivada2 p, .HojaActivada2 b{
+  font-size: 150%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: black;
+}
+
+.HojaActivada2 a:hover{
+  background-color: gray;
+  color: white;
+}
+
+.HojaActivada2 form{
+  color: black;
+  margin-left: 30%;
+  margin-top: 40%;
+  margin-bottom: -60%;
+}
+
+.Victoria h1{
+  text-align: center;
+  font-size: 400%;
+}
+
+.Victoria h3{
+  font-size: 150%;
+  text-align: center;
+
+  margin-top: 5%;
+}
+
+.Victoria ul{
+  margin-top: 5%;
+}
+
+.Victoria ul li a{
+  font-size: 120%;
+  border: 0;
+  background-color: gray;
+  padding-left: 45%;
+}
+
+.Victoria ul li{
+  margin-bottom: 2%;
+}
+
+.Temportizador{
+  font-size: 200%;
+  margin-left: 42%;
+}
+
+.consigna{
+  text-align: center;
+  font-size: 200%;
+}
+
+.pregunta{
+  font-size: 150%;
+  margin-left: 35%;
+  float: left;
+}
+
+.input{
+  margin-left: 1%;
+  margin-top: 1.5%;
+}
+
+.tanque{
+  margin-left: 25%;
+}
+
+.clave4Digitos{
+  margin-left: 35%;
+}
+
+.party1{
+  margin-left: 10%;
+}
+
+.exit{
+  width: 100%;
+  height: auto;
+}
+
+.finishedRoom{
+  font-size: 400%;
+  margin-left: 37%;
+}
+
+.botonMapa, .botonMapa1{
+  margin-top: 5%;
+  font-size: 200%;
+  padding-left: 2%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+.botonMapa1{
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.tempo{
+  margin-top: -4%;
+}
+
+.tempoHall1{
+  margin-top: -52%;
+}
+
+.ListConsigna li{
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 5%;
 }

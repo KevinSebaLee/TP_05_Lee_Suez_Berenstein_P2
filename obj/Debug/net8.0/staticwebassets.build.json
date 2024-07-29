@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PfmY5FL7oV9Ee5iW6/ejzGGTVDVHK/IzYqqI1up6+Lw=",
+  "Hash": "x42IpHd2UuGp6AP3yJe37mAAoHaTAyf3nadP+FGz8ZU=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\img\\Carousel 3.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Clave4Digitos.png",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "img/Clave4Digitos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Clave4Digitos.png"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Cocina.webp",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Cocina.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Exit.webp",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "img/Exit.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Exit.webp"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Hall1.jpg",
@@ -378,6 +416,25 @@
       "OriginalItemSpec": "wwwroot\\img\\OfficeClean.jpg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\PartyRoom.webp",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "img/PartyRoom.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\PartyRoom.webp"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
@@ -395,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\screamer.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\tanqueAgua.jpg",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "img/tanqueAgua.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tanqueAgua.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",

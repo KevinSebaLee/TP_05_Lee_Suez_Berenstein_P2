@@ -1,6 +1,6 @@
 <body>
     @if(!Escape.salasEscapadas[3]){
-        <h2>Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
@@ -61,7 +61,7 @@
         </div>
     }
     else{
-        <b>Ya completo la sala!</b>
-        <a href='@Url.Action("Mapa")'>Volver al Mapa.</a>
+        <b class="finishedRoom">Ya completo la sala!</b>
+        <a class="botonMapa" href='@Url.Action("Mapa")'>Volver al Mapa</a>
     }
 </body>

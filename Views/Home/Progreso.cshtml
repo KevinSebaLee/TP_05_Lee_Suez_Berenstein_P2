@@ -21,6 +21,8 @@
 
     <a href='@Url.Action("Mapa")'>Voler al Mapa</a>
 
+    <h1>Vidas Restantes: @Escape.vidas</h1>
+
     @for(int i=0; i < Escape.salasEscapadas.Length; i++){
         if(i > 0){
             @if(i == 1){

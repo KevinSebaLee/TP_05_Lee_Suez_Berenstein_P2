@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets\\img\\Carousel 3.jpeg"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Clave4Digitos.png",
+      "PackagePath": "staticwebassets\\img\\Clave4Digitos.png"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Cocina.webp",
       "PackagePath": "staticwebassets\\img\\Cocina.webp"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Exit.webp",
+      "PackagePath": "staticwebassets\\img\\Exit.webp"
     },
     {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Hall1.jpg",
@@ -43,6 +51,10 @@
     {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\OfficeClean.jpg",
       "PackagePath": "staticwebassets\\img\\OfficeClean.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\PartyRoom.webp",
+      "PackagePath": "staticwebassets\\img\\PartyRoom.webp"
     },
     {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\Ventilacion.jfif",
@@ -83,6 +95,10 @@
     {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\screamer.gif",
       "PackagePath": "staticwebassets\\img\\screamer.gif"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\tanqueAgua.jpg",
+      "PackagePath": "staticwebassets\\img\\tanqueAgua.jpg"
     },
     {
       "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\js\\site.js",
