@@ -32,6 +32,10 @@ footer {
   text-align: center;
 }
 
+audio{
+  display: none;
+}
+
 .footer-content {
   display: flex;
   justify-content: space-around;
@@ -401,7 +405,7 @@ a:hover {
 }
 
 .Contexto{
-  margin-top: -10%;
+  margin-top: -7%;
 }
 
 .Contexto img{

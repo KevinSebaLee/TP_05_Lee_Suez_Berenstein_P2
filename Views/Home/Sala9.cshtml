@@ -8,7 +8,7 @@
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 3000;
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
                 
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);
@@ -35,7 +35,7 @@
             <li>La puerta de la derecha a un león que no ha comido en 3 meses. </li>
         </ul>
         <form action='@Url.Action("Habitacion")'>
-            <p class="pregunta">¿Cual es la caja correcta? (Ingrese el numero nada mas.)</p>
+            <p class="pregunta">¿Cual es la puerta correcta?</p>
             <input class="input" type="text" name="clave" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>

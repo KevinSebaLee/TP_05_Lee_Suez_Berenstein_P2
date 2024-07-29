@@ -9,7 +9,7 @@
             
             <script>
                 // Load the saved timer state from localStorage or set to 600 if none exists
-                let tiempo = parseInt(localStorage.getItem('tiempo')) || 3600;
+                let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
                     
                 let timer = setInterval(function() {
                     let minutes = Math.floor(tiempo / 60);
@@ -41,7 +41,7 @@
                     <div class="HojaActivada1">
                         <a href='@Url.Action("ApretoBoton", "Home", new{ApretoBoton="5"})'>Salir</a>
                         <b>Acertijo de los Cuatro Números
-                            Imagina que tienes cuatro números: A, B, C y D. Basándote en las siguientes pistas encuentre el numero:
+                            Imagina que tienes cuatro números: A, B, C y D. Basándote en las siguientes pistas y numeros que se les brinda en la Sala Progreso en el Mapa encuentre la secuencia:
 
                             <br><br>
 
@@ -51,7 +51,7 @@
                             <br>
                             El número C es el mayor de los cuatro.
                             <br>
-                            El número D está inmediatamente antes de C.
+                            El número D está inmediatamente una posicion antes de C.
                             <br>
                             El número A está en la primera posición. 
                             
