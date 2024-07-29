@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x42IpHd2UuGp6AP3yJe37mAAoHaTAyf3nadP+FGz8ZU=",
+  "Hash": "mks1NGt8DUb5HyKYxV9cIirBDyoUtMD08WwRa39N+Yc=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -302,12 +302,12 @@
       "OriginalItemSpec": "wwwroot\\img\\MapaFNAFSinEdicion.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño1.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\nino1.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
-      "RelativePath": "img/niño1.png",
+      "RelativePath": "img/nino1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\niño1.png"
+      "OriginalItemSpec": "wwwroot\\img\\nino1.png"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño2.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\nino2.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
-      "RelativePath": "img/niño2.png",
+      "RelativePath": "img/nino2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\niño2.png"
+      "OriginalItemSpec": "wwwroot\\img\\nino2.png"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño3.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\nino3.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
-      "RelativePath": "img/niño3.png",
+      "RelativePath": "img/nino3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,15 +356,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\niño3.png"
+      "OriginalItemSpec": "wwwroot\\img\\nino3.png"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño4.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\nino4.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
-      "RelativePath": "img/niño4.png",
+      "RelativePath": "img/nino4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,15 +375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\niño4.png"
+      "OriginalItemSpec": "wwwroot\\img\\nino4.png"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\niño5.png",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\nino5.png",
       "SourceId": "TP_05_Lee_Suez_Berenstein",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
       "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
-      "RelativePath": "img/niño5.png",
+      "RelativePath": "img/nino5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,7 +394,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\niño5.png"
+      "OriginalItemSpec": "wwwroot\\img\\nino5.png"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\img\\OfficeClean.jpg",

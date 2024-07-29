@@ -26,14 +26,14 @@
             }, 1000); // Changed interval to 1000ms (1 second) for accuracy
         </script>
 
-        <div>
-            <img src="~/img/niño5.png">
-            <p>Estas en una sala completamente oscura, de repente escuchas la voz de un niño que te muesta 3 objetos que apenas puedes diferenciar, una antorcha a leña, una antorcha electrica
-            y una vela, luego, te da una cerilla. Que encenderias primero?</p>
+        <div class="Pregunta">
+            <img src="~/img/nino5.png">
+            <p class="consigna">Estas en una sala completamente oscura, de repente escuchas la voz de un niño que te muesta 3 objetos que apenas puedes diferenciar, una antorcha a leña, una antorcha electrica y una vela, luego, te da una cerilla.</p>
         </div>
 
         <form action='@Url.Action("Habitacion")'>
-            <input type="text" name="clave" autocomplete="off" required>
+            <p class="pregunta">¿Que encenderias primero?</p>
+            <input class="input" type="text" name="clave" autocomplete="off" required>
             <input type="submit" value="Enviar Respuesta">
         </form>
 

@@ -435,6 +435,7 @@ a:hover {
   margin-right: 86%;
   align-items: end;
 }
+
 .niño h3{ 
   text-align: center;
 }
@@ -482,7 +483,7 @@ hr{
   color: greenyellow;
 }
 
-.pregunta img{
+.Pregunta img{
   filter: brightness(30%);
   width: 10%;
   height: auto;
