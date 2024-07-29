@@ -5,6 +5,7 @@ static class Escape
     public static int[] DigitosHall2 {get; set;}
     public static int[] DigitosHall1 {get; set;}
     public static int[] DigitosExit{get; set;}
+    public static bool usoVidaExtra;
     private static int hall2Codigo, hall1Codigo, exitCodigo;
     public static int vidas;
     public static RoomGraph Graph;
@@ -12,6 +13,8 @@ static class Escape
 
     public static void InicializarJuego()
     {
+        usoVidaExtra = false;
+
         int maxNumber, minNumber;
         Random rnd = new Random();
 
@@ -26,8 +29,8 @@ static class Escape
             hall2Codigo = rnd.Next(1000, 9999);
             DigitosHall2 = hall2Codigo.ToString().Select(digit => int.Parse(digit.ToString())).ToArray();
         
-            maxNumber = DigitosHall2.Max();
-        }while(!(DigitosHall2[0] == maxNumber && DigitosHall2[2] > DigitosHall2[1] && DigitosHall2[2] > DigitosHall2[3]));
+            minNumber = DigitosHall2.Min();
+        }while(!(DigitosHall2[0] == minNumber && DigitosHall2[2] > DigitosHall2[1] && DigitosHall2[2] > DigitosHall2[3]));
 
         do{
             hall1Codigo = rnd.Next(100, 999);
@@ -46,10 +49,18 @@ static class Escape
 
         Console.WriteLine(exitCodigo);
 
-        incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "cual puerta lleva al dragon", "tostadora", "1694", "59", "hipo", exitCodigo.ToString()};
+        incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "cual puerta lleva al dragon", "saquito de te", "1694", "59", "hipo", exitCodigo.ToString()};
 
         salasEscapadas = new bool[17];
-        Array.Fill(salasEscapadas, false);
+        Array.Fill(salasEscapadas, true);
+
+        salasEscapadas[10] = false;
+        salasEscapadas[11] = false;
+        salasEscapadas[12] = false;
+        salasEscapadas[13] = false;
+        salasEscapadas[14] = false;
+        salasEscapadas[15] = false;
+        salasEscapadas[16] = false;
         
         vidas = 5;
 

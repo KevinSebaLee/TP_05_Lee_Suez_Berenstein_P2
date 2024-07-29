@@ -434,10 +434,12 @@ a:hover {
 }
 
 .niño{ 
-  display: flex;
   float: left;
-  margin-right: 86%;
-  align-items: end;
+  margin-right: 82%;
+}
+
+.niño1{
+  margin-right: 5%;
 }
 
 .niño h3{ 
@@ -445,22 +447,25 @@ a:hover {
 }
 
 .niñoMedio{
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-left: 45%;
+  margin-right: 50%;
 }
 
 .niñoAbajo{
-  display: flex;
   float: left;
-  margin-right: 86%;
-  align-items: end;
+  margin-right: 81%;
+}
+
+.niñoAbajo1{
+  margin-right: 5%;
 }
 
 .juego div a{
   border: 0px;
 }
 
-.error{
+.error, .error1{
   margin-left: 40%;
   color: red;
 }

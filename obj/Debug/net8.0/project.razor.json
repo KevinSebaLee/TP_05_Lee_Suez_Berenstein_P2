@@ -19429,6 +19429,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\devandroid\\Desktop\\TP_05_Lee_Suez_Berenstein_P2\\Views\\Home\\GanarUnaVida.cshtml",
+      "TargetPath": "Views\\Home\\GanarUnaVida.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\devandroid\\Desktop\\TP_05_Lee_Suez_Berenstein_P2\\Views\\Home\\Sala5.cshtml",
       "TargetPath": "Views\\Home\\Sala5.cshtml",
       "FileKind": "mvc"

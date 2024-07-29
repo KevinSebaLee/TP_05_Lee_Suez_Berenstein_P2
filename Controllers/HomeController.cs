@@ -55,7 +55,14 @@ public class HomeController : Controller
                 return View($"Sala{sala}");
             }
             else{
-                return View("Perdio");
+                if(Escape.usoVidaExtra){
+                    return View("Perdio");        
+                }
+                else{
+                    Escape.usoVidaExtra = true;
+                    Escape.vidas++;
+                    return View("GanarUnaVida");
+                }
             }
         }
     }
