@@ -20,6 +20,11 @@ public class HomeController : Controller
     public IActionResult Mapa(){return View();}
     public IActionResult Progreso(){return View();}
     public IActionResult Pistas(){return View();}
+    public IActionResult Perdio(){return View();}
+    public IActionResult GanarUnaVida(){
+        ViewBag.Afirmacion = "Si";
+        return View();
+    }
 
     public IActionResult Comenzar(){
         Escape.InicializarJuego();

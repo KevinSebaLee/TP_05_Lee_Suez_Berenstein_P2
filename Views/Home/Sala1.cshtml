@@ -7,6 +7,12 @@
         @if(ViewBag.Error != null){
             <p class="Error">@ViewBag.Error</p>
         }
+            
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
 
         @if(!(Escape.salasEscapadas[1])){<a class="botonMapa" href='@Url.Action("Pistas")'>Pistas</a>}
 
@@ -33,7 +39,7 @@
             }
 
             <script>
-                let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+                let tiempo = parseInt(localStorage.getItem('tiempo')) || 2700;
                     
                 let timer = setInterval(function() {
                     let minutes = Math.floor(tiempo / 60);

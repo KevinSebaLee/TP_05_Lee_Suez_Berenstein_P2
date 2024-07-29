@@ -1,14 +1,16 @@
 <body>
     @if(!Escape.salasEscapadas[9]){
-        @if(ViewBag.Error != null){
-            <p>@ViewBag.Error</p>
-        }
-
         <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
+
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
 
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+            let tiempo = parseInt(localStorage.getItem('tiempo'));
                 
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);
@@ -39,6 +41,10 @@
             <input class="input" type="text" name="clave" autocomplete="off" required>
             <input type="submit" value="Enviar">
         </form>
+
+        @if(ViewBag.Error != null){
+            <p class="error">@ViewBag.Error</p>
+        }
     }
     else{
         <b class="finishedRoom">Ya completo la sala!</b>

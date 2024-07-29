@@ -5,9 +5,15 @@
         }
 
         <h2>Temportizador: <span id="tiempo"></span></h2>
-            
+        
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
+
         <script>
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+            let tiempo = parseInt(localStorage.getItem('tiempo'));
                     
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);

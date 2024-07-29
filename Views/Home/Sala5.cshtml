@@ -4,12 +4,18 @@
             <p class="Error">@ViewBag.Error</p>
         }
 
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
+
         @if(!(Escape.salasEscapadas[5])){
             <h2 class="tempo">Temportizador: <span id="tiempo"></span></h2>
             
             <script>
                 // Load the saved timer state from localStorage or set to 600 if none exists
-                let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+                let tiempo = parseInt(localStorage.getItem('tiempo'));
                     
                 let timer = setInterval(function() {
                     let minutes = Math.floor(tiempo / 60);

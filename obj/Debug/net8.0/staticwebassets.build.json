@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zY5YFo+PnzBqyv9haSPbsYi18m4LZc6LI7jy6cdLF1c=",
+  "Hash": "zhtmvbe07RzF6y6vPhQr95aFVTllryNFpqKXCo/GLeA=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -756,6 +756,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sounds\\Fnaf Jumpscare Sound Effect.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\devandroid\\Desktop\\TP_05_Lee_Suez_Berenstein_P2\\wwwroot\\sounds\\MusicaSuspenso.mp3",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\TP_05_Lee_Suez_Berenstein_P2\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "sounds/MusicaSuspenso.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sounds\\MusicaSuspenso.mp3"
     }
   ]
 }

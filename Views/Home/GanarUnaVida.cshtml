@@ -1,3 +1,8 @@
 <body>
-    <a href='@Url.Action("Mapa")'>Volver al juego</a>
+    @if(ViewBag.GanarUnaVida == null){
+        <h1>Quiere obtener una vida extra?</h1>
+        <form action='@Url.Action("GanarUnaVida")'>
+            <button type="submit"><h1>Si</h1></button>
+        </form>
+    }
 </body>

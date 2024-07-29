@@ -4,9 +4,15 @@
 
         <a class="botonMapa" href='@Url.Action("Pistas")'>Pistas</a>
 
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
+
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 2700;
                 
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);

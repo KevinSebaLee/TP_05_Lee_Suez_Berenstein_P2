@@ -52,7 +52,7 @@ static class Escape
         incognitasSalas = new string[16] {"2", "rombo", "5", "cerilla", hall2Codigo.ToString(), hall1Codigo.ToString(), "caja de cerillas", "4", "derecha", "400", "cual puerta lleva al dragon", "saquito de te", "1694", "59", "hipo", exitCodigo.ToString()};
 
         salasEscapadas = new bool[17];
-        Array.Fill(salasEscapadas, true);
+        Array.Fill(salasEscapadas, false);
 
         salasEscapadas[10] = false;
         salasEscapadas[11] = false;

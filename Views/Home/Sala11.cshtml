@@ -5,9 +5,15 @@
         
         <a class="botonMapa" href='@Url.Action("Pistas")'>Pistas</a>
 
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
+
         <script>
             // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+            let tiempo = parseInt(localStorage.getItem('tiempo'));
                 
             let timer = setInterval(function() {
                 let minutes = Math.floor(tiempo / 60);
@@ -24,7 +30,7 @@
                     localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
                 }
                 tiempo--;
-            }, 1200); // Changed interval to 1000ms (1 second) for accuracy
+            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
         </script>
 
         <p class="consigna">Estás encerrado en una habitación con solo 2 salidas: 2 puertas, vigiladas por 2 centinelas. Una puerta lleva a la libertad y la otra lleva a una sala con un dragón feroz. Antes de elegir cualquiera de las puertas, puedes hacer una pregunta a un centinela. El problema es que uno de ellos siempre dice la verdad y el otro siempre miente.</p>

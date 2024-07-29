@@ -9,6 +9,12 @@
             <a class="botonMapa1" href='@Url.Action("Mapa")'>Volver al Mapa</a>
         }
 
+        <div class = "suspenso">
+            <audio controls autoplay>
+                <source src="~/sounds/MusicaSuspenso.mp3">
+            </audio>
+        </div>
+
         <img src="~/img/Hall1.jpg">
 
         @if(!Escape.salasEscapadas[6]){
@@ -53,7 +59,7 @@
             }
             <script>
                 // Load the saved timer state from localStorage or set to 600 if none exists
-                let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+                let tiempo = parseInt(localStorage.getItem('tiempo'));
                     
                 let timer = setInterval(function() {
                     let minutes = Math.floor(tiempo / 60);

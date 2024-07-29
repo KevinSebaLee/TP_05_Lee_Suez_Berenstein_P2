@@ -157,6 +157,10 @@
       "PackagePath": "staticwebassets\\sounds\\Fnaf Jumpscare Sound Effect.mp3"
     },
     {
+      "Id": "C:\\Users\\devandroid\\Desktop\\TP_05_Lee_Suez_Berenstein_P2\\wwwroot\\sounds\\MusicaSuspenso.mp3",
+      "PackagePath": "staticwebassets\\sounds\\MusicaSuspenso.mp3"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP_05_Lee_Suez_Berenstein.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
