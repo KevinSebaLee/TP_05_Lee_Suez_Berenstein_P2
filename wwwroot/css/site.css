@@ -751,3 +751,12 @@ hr{
   text-align: center;
   margin-bottom: 5%;
 }
+
+.Eleccion{
+  float: left;
+  margin-right: 5%;
+}
+
+.VidaExtra h1{
+  text-align: center;
+}

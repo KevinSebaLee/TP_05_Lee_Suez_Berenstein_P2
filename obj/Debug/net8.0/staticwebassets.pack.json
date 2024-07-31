@@ -161,6 +161,10 @@
       "PackagePath": "staticwebassets\\sounds\\MusicaSuspenso.mp3"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\videos\\AnuncioVidaExtra.mp4",
+      "PackagePath": "staticwebassets\\videos\\AnuncioVidaExtra.mp4"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP_05_Lee_Suez_Berenstein.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

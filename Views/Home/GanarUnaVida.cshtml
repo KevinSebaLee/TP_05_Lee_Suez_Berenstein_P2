@@ -1,8 +1,18 @@
-<body>
-    @if(ViewBag.GanarUnaVida == null){
+<body class="VidaExtra">
+    @if(ViewBag.Afirmacion == null){
         <h1>Quiere obtener una vida extra?</h1>
         <form action='@Url.Action("GanarUnaVida")'>
-            <button type="submit"><h1>Si</h1></button>
+            <button class="Eleccion" type="submit"><h1>Si</h1></button>
         </form>
+        
+        <form action='@Url.Action("Index")'>
+            <button type="submit"><h1>No</h1></button>
+        </form>
+    }
+    else{
+        <h1>Tiene que ver este video para conseguir una vida extra.</h1>
+        <video id="Anuncio" width="100%" height="" controls>
+            <source src="../videos/AnuncioVidaExtra.mp4">
+        </video>
     }
 </body>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FsT4oHUjBDXkvfNwu/403hewpYY3Ivyl3NpooWiE1xw=",
+  "Hash": "vgKWUrg6SkvsO2G68QbEeVCNnjSjioneDGf3jbsvwNU=",
   "Source": "TP_05_Lee_Suez_Berenstein",
   "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
   "Mode": "Default",
@@ -775,6 +775,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sounds\\MusicaSuspenso.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\videos\\AnuncioVidaExtra.mp4",
+      "SourceId": "TP_05_Lee_Suez_Berenstein",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\TP_05_Lee_Suez_Berenstein\\wwwroot\\",
+      "BasePath": "_content/TP_05_Lee_Suez_Berenstein",
+      "RelativePath": "videos/AnuncioVidaExtra.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\AnuncioVidaExtra.mp4"
     }
   ]
 }
