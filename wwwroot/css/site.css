@@ -385,10 +385,9 @@ a:hover {
 }
 
 .Error{
-  display: absolute;
   margin-left: 37%;
   transform: translate(0, 1000%);
-  color: white;
+  color: red;
   font-style: oblique;
   font-size: 200%;
 }
@@ -599,7 +598,7 @@ hr{
   background-color: gray;
   text-align: center;
   margin-left: 45%;
-  margin-right: 49%;
+  margin-right: 46%;
 }
 
 .screamer h1{
@@ -697,14 +696,16 @@ hr{
   font-size: 200%;
 }
 
-.pregunta, .pregunta1{
+.pregunta{
   font-size: 150%;
-  margin-left: 35%;
+  margin-left: 32%;
   float: left;
 }
 
 .pregunta1{
+  font-size: 150%;
   margin-left: 18%;
+  float: left;
 }
 
 .input{
@@ -739,7 +740,7 @@ hr{
 .botonMapa, .botonMapa1{
   margin-top: 5%;
   font-size: 200%;
-  padding-left: 2%;
+  padding-left: 2.6%;
   margin-left: 45%;
   margin-right: 45%;
 }
@@ -767,12 +768,19 @@ hr{
   float: left;
   margin-left: 45%;
   margin-right: 5%;
+  padding: 0 0.7% 0.1% 0.7%;
 }
 
+
 .VidaExtra h1{
+  font-size: 300%;
   text-align: center;
 }
 
 .Form1Si{
   padding: 0 2% 0 2%;
+}
+
+.Anuncio{
+  margin-left: 14%;
 }
