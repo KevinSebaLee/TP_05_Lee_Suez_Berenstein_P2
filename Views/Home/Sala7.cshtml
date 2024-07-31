@@ -3,7 +3,7 @@
 </head>
 <body>
     @if(!Escape.salasEscapadas[7]){
-        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temporizador: <span id="tiempo"></span></h2>
 
         <a class="botonMapa" href='@Url.Action("Pistas")'>Pistas</a>
 
@@ -21,7 +21,7 @@
         </form>
 
         @if(ViewBag.Error != null){
-            <p class="error">@ViewBag.Error</p>
+            <b class="error">@ViewBag.Error</b>
         }
     }
     else{

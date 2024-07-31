@@ -61,6 +61,7 @@ video.addEventListener('ended', () => {
     const allWatched = watchedIntervals.every(interval => interval);
     if (allWatched) {
         alert('Gracias por el video! Se te otorgara la vida extra');
+        location.href = 'Mapa';
     } else {
         alert('Por favor mire el video completo para que se le entregue la vida extra. Si intenta skipear devuelta, se lo mandara al Menú Principal.');
     }

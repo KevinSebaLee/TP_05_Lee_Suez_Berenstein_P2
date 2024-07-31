@@ -1,11 +1,11 @@
 <body class="VidaExtra">
     @if(ViewBag.Afirmacion == null){
         <h1>Quiere obtener una vida extra?</h1>
-        <form action='@Url.Action("GanarUnaVida")'>
+        <form class="Form1Si" action='@Url.Action("GanarUnaVida")'>
             <button class="Eleccion" type="submit"><h1>Si</h1></button>
         </form>
         
-        <form action='@Url.Action("Index")'>
+        <form action='@Url.Action("Perdio")'>
             <button type="submit"><h1>No</h1></button>
         </form>
     }

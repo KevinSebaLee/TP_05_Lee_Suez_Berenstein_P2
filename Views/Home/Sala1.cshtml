@@ -1,7 +1,7 @@
 <body>
     <div class="Nivel1">
         @if(ViewBag.Error != null){
-            <p class="Error">@ViewBag.Error</p>
+            <b class="Error">@ViewBag.Error</b>
         }
             
         <div class = "suspenso">
@@ -15,7 +15,7 @@
         <img src="/img/OfficeClean.jpg">
 
         @if(!(Escape.salasEscapadas[1])){
-            <h2 class="Tempo">Temportizador: <span id="tiempo"></span></h2>
+            <h2 class="Tempo">Temporizador: <span id="tiempo"></span></h2>
 
             @if(ViewBag.activoSala == null){
                 <div class="Hoja">

@@ -3,7 +3,7 @@
 </head>
 <body>
     @if(!Escape.salasEscapadas[9]){
-        <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
+        <h2 class="Temportizador">Temporizador: <span id="tiempo"></span></h2>
 
         <div class = "suspenso">
             <audio controls autoplay>
@@ -24,7 +24,7 @@
         </form>
 
         @if(ViewBag.Error != null){
-            <p class="error">@ViewBag.Error</p>
+            <b class="error">@ViewBag.Error</b>
         }
     }
     else{

@@ -470,6 +470,10 @@ a:hover {
   color: red;
 }
 
+.error1{
+  margin-left: -5%;
+}
+
 .Tempo{
   margin-top: -50%;
   margin-left: 0%;
@@ -617,7 +621,8 @@ hr{
 }
 
 .cocina{
-  margin-top: 2%;
+  margin-left: -30%;
+  margin-top: 3%;
 }
 
 .HojaActivada2{
@@ -692,10 +697,14 @@ hr{
   font-size: 200%;
 }
 
-.pregunta{
+.pregunta, .pregunta1{
   font-size: 150%;
   margin-left: 35%;
   float: left;
+}
+
+.pregunta1{
+  margin-left: 18%;
 }
 
 .input{
@@ -713,6 +722,8 @@ hr{
 
 .party1{
   margin-left: 10%;
+  width: 80%;
+  height: auto;
 }
 
 .exit{
@@ -754,9 +765,14 @@ hr{
 
 .Eleccion{
   float: left;
+  margin-left: 45%;
   margin-right: 5%;
 }
 
 .VidaExtra h1{
   text-align: center;
+}
+
+.Form1Si{
+  padding: 0 2% 0 2%;
 }
