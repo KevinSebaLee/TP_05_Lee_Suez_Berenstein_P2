@@ -60,8 +60,8 @@ video.addEventListener('ended', () => {
     let watchedIntervals = JSON.parse(sessionStorage.getItem(watchedIntervalsKey));
     const allWatched = watchedIntervals.every(interval => interval);
     if (allWatched) {
-        alert('You have watched the video completely in this session!');
+        alert('Gracias por el video! Se te otorgara la vida extra');
     } else {
-        alert('Please watch the full video without skipping to get the extra life.');
+        alert('Por favor mire el video completo para que se le entregue la vida extra. Si intenta skipear devuelta, se lo mandara al Menú Principal.');
     }
 });
