@@ -1,3 +1,6 @@
+<head>
+    <script src="~/js/site.js"></script>
+</head>
 <body>
     @if(!Escape.salasEscapadas[3]){
         <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
@@ -7,28 +10,6 @@
                 <source src="~/sounds/MusicaSuspenso.mp3">
             </audio>
         </div>
-
-        <script>
-            // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 2700;
-                
-            let timer = setInterval(function() {
-                let minutes = Math.floor(tiempo / 60);
-                let seconds = tiempo % 60;
-                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-        
-                // Save the current timer state to localStorage
-                localStorage.setItem('tiempo', tiempo);
-            
-                if (tiempo <= 0) {
-                    clearInterval(timer);
-                    alert("¡Se acabó el tiempo!");
-                    // Reset timer in localStorage when the game is lost
-                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-                }
-                tiempo--;
-            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
-        </script>
 
         <div class="Consigna">
             <b>En una sala de juegos, cinco niños disfrutan de diferentes tipos de juguetes. Cada niño tiene sus propias preferencias: uno juega con bloques de construcción, otro tiene un gato como mascota, mientras que otro prefiere los trenes. El niño noruego juega con una muñeca y el alemán se encuentra en la esquina izquierda de la sala. El niño en la esquina derecha de la sala bebe jugo. Las relaciones entre vecinos son importantes: el niño con el perro vive al lado del que juega con la pelota, y el que tiene un pez está junto al que juega con la peonza. El que bebe leche vive al lado del que juega con bloques de construcción, y el que vive en el centro de la sala prefiere el refresco. En la esquina derecha de la sala, el niño tiene una mascota diferente al de la esquina izquierda. Además, el que juega con la bicicleta vive al lado del que tiene un gato, y el que juega con coches vive al lado del que bebe agua. ¿Quién es el niño que tiene un pez como mascota?</b>

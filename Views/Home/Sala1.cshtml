@@ -1,7 +1,6 @@
-@{
-    int pistasUsadas = 0;
-}
-
+<head>
+    <script src="~/js/site.js"></script>
+</head>
 <body>
     <div class="Nivel1">
         @if(ViewBag.Error != null){
@@ -38,26 +37,7 @@
                 </div>
             }
 
-            <script>
-                let tiempo = parseInt(localStorage.getItem('tiempo')) || 2700;
-                    
-                let timer = setInterval(function() {
-                    let minutes = Math.floor(tiempo / 60);
-                    let seconds = tiempo % 60;
-                    document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-            
-                    // Save the current timer state to localStorage
-                    localStorage.setItem('tiempo', tiempo);
-            
-                    if (tiempo <= 0) {
-                        clearInterval(timer);
-                        alert("¡Se acabó el tiempo!");
-                        // Reset timer in localStorage when the game is lost
-                        localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-                    }
-                    tiempo--;
-                }, 1000);
-            </script>
+            <script src="~/js/site.js"></script>
         }
         else{
             <b class="completada">Ya completo la sala!</b>

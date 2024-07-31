@@ -1,3 +1,6 @@
+<head>
+    <script src="~/js/site.js"></script>
+</head>
 <body>
     @if(!Escape.salasEscapadas[13]){
         <h2 class="Temportizador">Temportizador: <span id="tiempo"></span></h2>
@@ -7,28 +10,6 @@
                 <source src="~/sounds/MusicaSuspenso.mp3">
             </audio>
         </div>
-
-        <script>
-            // Load the saved timer state from localStorage or set to 600 if none exists
-            let tiempo = parseInt(localStorage.getItem('tiempo'));
-                
-            let timer = setInterval(function() {
-                let minutes = Math.floor(tiempo / 60);
-                let seconds = tiempo % 60;
-                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-        
-                // Save the current timer state to localStorage
-                localStorage.setItem('tiempo', tiempo);
-            
-                if (tiempo <= 0) {
-                    clearInterval(timer);
-                    alert("¡Se acabó el tiempo!");
-                    // Reset timer in localStorage when the game is lost
-                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-                }
-                tiempo--;
-            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
-        </script>
 
         <p class="consigna">Encuentra el número de cuatro dígitos en el que el primer dígito es un cuarto del último dígito, el segundo dígito es 6 veces el primer dígito y el tercer dígito es el segundo dígito más 3.</p>
 
